@@ -1,4 +1,4 @@
-# APP_NAME_HERE
+# LetItGo
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -8,16 +8,15 @@
 
 ## Overview
 ### Description
-[Description of your app]
+It's designed for people in same city to trade second-hand items. As a seller: Snap a photo of something you'd like to sell, add the details, listing title and select the related category, then post it to the app. As a buyer: add the item you like to cart, and submi a purchase request or add to wishlist.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Shopping/ buy & sell
+- **Mobile:** This app would be primarily developed for mobile but may have web version for computer later on, similar to Amazon shopping.
+- **Story:** Group similar items based on their categories. Users can send message to sellers to ask for more details about the items.
+- **Market:** Any one who want to buy and sell second-hand items can use this app. In order to make sure the transaction takes place in the same city, users should locate themselves at the beginning.
+- **Habit:** This app could be used as often or seldom as the user wanted. There is no deadline for selling items, just put it on app until it has been sold or you don't want to sell.
+- **Scope:** At this point we only support local transactions. Users should buy and sell items based on their location. And they can choose any payment method they like when doing face-to-face transactions. And later on, we will develop more funcstions that allow users to buy products from othe cities, and support online payment.
 
 ## Product Spec
 
