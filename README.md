@@ -25,7 +25,7 @@
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
+* The users can upload used items
 * ...
 
 **Optional Nice-to-have Stories**
