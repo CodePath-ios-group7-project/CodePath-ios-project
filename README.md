@@ -36,12 +36,18 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login 
+* Register Screen - User signs up or logs into their account
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to buy the goods they want
+* Home Screen - User can see what product is being sold or discount
+* Search Screen
+    * Allow user to search their product (Ebay Search screen example)
+* Message Screen - Chat for users to communicate (direct 1-on-1)
+    * User can send their product to ask with the owner (example when we book in Airbnb)
+* Seling Screen
+    * User can sell their product in the screen
+* Settings Screen
+    *Lets people change language, and app notification settings.
 
 ### 3. Navigation
 
