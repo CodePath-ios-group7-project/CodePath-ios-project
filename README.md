@@ -25,7 +25,9 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 **Required Must-have Stories**
 
 * The users can upload used items
-* ...
+* The users communicate through a messaging system 
+* The users can process transactions to buy used items 
+* The users can locate users and used items near the location 
 
 **Optional Nice-to-have Stories**
 
