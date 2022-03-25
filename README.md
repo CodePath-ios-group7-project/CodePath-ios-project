@@ -60,9 +60,11 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Screen
+* Chat
+* Profile
+* Search
+* Post Screen
 
 **Flow Navigation** (Screen to Screen)
 
