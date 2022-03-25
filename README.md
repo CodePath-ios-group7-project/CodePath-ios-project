@@ -85,7 +85,9 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 ### [BONUS] Digital Wireframes & Mockups
 
+
 ### [BONUS] Interactive Prototype
+<img src="http://g.recordit.co/laPGNnBspN.gif" width=600>
 
 ## Schema 
 [This section will be completed in Unit 9]
