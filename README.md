@@ -85,6 +85,7 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src='https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Welcome%20Screen.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Welcome%20Screen.png" width=300>
 
 ### [BONUS] Interactive Prototype
 
