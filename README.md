@@ -68,7 +68,7 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Wireframes.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
