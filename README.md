@@ -24,15 +24,22 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 **Required Must-have Stories**
 
-* The users can upload used items
+
+
++ The users can list items
+  1. The users can upload photos of the items
+  2. The users can upload text detail description of the items 
+  3. The users can list price of the items 
+* The users can create an account and log in 
+* The users can fill in their personal information for their user profile
 * The users communicate through a messaging system 
-* The users can process transactions to buy used items 
-* The users can locate users and used items near the location 
+* The users can locate users and search for used items near their location 
+* The users can look at a feed of nearby used items 
+* The users can look at more details of an item by tapping on it
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* The users can pay online for their items
 
 ### 2. Screen Archetypes
 
