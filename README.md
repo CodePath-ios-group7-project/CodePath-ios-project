@@ -68,12 +68,17 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Log-In Screen
+   * Account creation if no account
+   * Home screen with recent posts otherwise
+* Home Screen
+   * If item clicked on, sent to Item Detail Screen with photo, price, location, etc
+* Profile Screen
+   * Post image and text fields to be modified/deleted
+   * Profile image field to be modified
+* Post Screen
+   * Photo image field to be modified
+   * Title, price, location text fields to be modified
 
 ## Wireframes
 <img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Wireframes.jpg" width=600>
