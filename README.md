@@ -87,7 +87,10 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 
 ### [BONUS] Interactive Prototype
-<img src="http://g.recordit.co/laPGNnBspN.gif" width=600>
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/laPGNnBspN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Schema 
 [This section will be completed in Unit 9]
