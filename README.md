@@ -84,8 +84,7 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 <img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Wireframes.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src='https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Welcome%20Screen.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Welcome%20Screen.png" width=300>
+<img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Welcome%20Screen.png" width=200>
 
 ### [BONUS] Interactive Prototype
 
