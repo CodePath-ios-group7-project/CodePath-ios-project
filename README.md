@@ -52,13 +52,18 @@ It's designed for people in same city to trade second-hand items. As a seller: S
     * Allow user to log in with valid username and password
 * Home Screen
     * User can see what product is being sold, post listed by creation time.
+* Item Detail Screen
+    * User can see the product's detail.(price, location, title, picture, discrition...)
 * Search Screen
     * Allow user to search their product (Ebay Search screen example)
+* Search Result Screen
+    * Allow user to check their search result.
 * Create Post Screen
     * Allow user to post their product 
 * Message Screen
     * User can check the recent chat history. 
-    * User can send message to communicate with the product owner (example when we book in Airbnb)
+* Individual Message Screen
+    * User can send message to communicate with a product owner (example when we book in Airbnb)
 * Profile Screen
     * User can modify their personal information, wishling and posts history in the screen
 * Settings Screen
@@ -75,18 +80,6 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 * Post Screen
 
 **Flow Navigation** (Screen to Screen)
-
-* Log-In Screen
-   * Account creation if no account
-   * Home screen with recent posts otherwise
-* Home Screen
-   * If item clicked on, sent to Item Detail Screen with photo, price, location, etc
-* Profile Screen
-   * Post image and text fields to be modified/deleted
-   * Profile image field to be modified
-* Post Screen
-   * Photo image field to be modified
-   * Title, price, location text fields to be modified
 
 * Welcome Screen - Allow user to select Sign in or Register options
     * Register Screen
