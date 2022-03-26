@@ -33,26 +33,34 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 * The users can create an account and log in 
 * The users can fill in their personal information for their user profile
 * The users communicate through a messaging system 
-* The users can locate users and search for used items near their location 
 * The users can look at a feed of nearby used items 
 * The users can look at more details of an item by tapping on it
+* The users can search used items by key word. 
 
 **Optional Nice-to-have Stories**
 
+* The app can locate users 
 * The users can pay online for their items
 
 ### 2. Screen Archetypes
 
-* Login 
-* Register Screen - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to buy the goods they want
-* Home Screen - User can see what product is being sold or discount
+* Welcome Screen
+    * Allow user to select Sign in or Register options
+* Register Screen
+    * Allow user to sign up with valid username and password
+* Login Screen
+    * Allow user to log in with valid username and password
+* Home Screen
+    * User can see what product is being sold, post listed by creation time.
 * Search Screen
     * Allow user to search their product (Ebay Search screen example)
-* Message Screen - Chat for users to communicate (direct 1-on-1)
-    * User can send their product to ask with the owner (example when we book in Airbnb)
-* Seling Screen
-    * User can sell their product in the screen
+* Create Post Screen
+    * Allow user to post their product 
+* Message Screen
+    * User can check the recent chat history. 
+    * User can send message to communicate with the product owner (example when we book in Airbnb)
+* Profile Screen
+    * User can modify their personal information, wishling and posts history in the screen
 * Settings Screen
     *Lets people change language, and app notification settings.
 
@@ -79,6 +87,27 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 * Post Screen
    * Photo image field to be modified
    * Title, price, location text fields to be modified
+
+* Welcome Screen - Allow user to select Sign in or Register options
+    * Register Screen
+    * Login Screen
+* Register Screen - Allow user to sign up with valid username and password
+    * Login Screen
+* Login Screen - Allow user to log in with valid username and password
+    * Home Screen
+* Home Screen - User can see what product is being sold, post listed by creation time.
+    * Item Detail Screen
+* Search Screen - Allow user to search their product 
+    * Search Result Screen
+      * Item Detail Screen
+* Create Post Screen - Allow user to post their product 
+    * Home Screen
+* Message Screen - User can send message to communicate with the product owner
+    * Individual Chat Screen
+* Profile Screen - User can modify their personal information, wishling and posts history in the screen
+    * Item Detail Screen
+* Settings Screen - Lets people change language, and app notification settings.
+    * Profile Screen
 
 ## Wireframes
 <img src="https://github.com/CodePath-ios-group9-project/CodePath-ios-project/blob/main/Wireframes/Wireframes.jpg" width=600>
