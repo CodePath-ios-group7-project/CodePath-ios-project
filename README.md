@@ -139,6 +139,11 @@ Here's a walkthrough of implemented user stories:
 
 ### Data Models
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 #### User
 | Property  | Type | Description |
 | ------------- | ------------- |
