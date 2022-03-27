@@ -144,6 +144,9 @@ Here's a walkthrough of implemented user stories:
 | ------------- | ------------- | ------------- |
 | username  | String | unique id for the user account |
 | password  | String | password for the user account |
+| profileImage  | File | profile image for the user |
+| nickname  | String | nickname for the user |
+| userLocation  | String | location for the user |
 
 #### Post
 | Property  | Type | Description |
@@ -154,14 +157,86 @@ Here's a walkthrough of implemented user stories:
 | title  | String  | post title  |
 | discrition  | String | the detail discrition of a post item |
 | itemPrice  | Number  | the price of post item  |
-| itemLocation | Content Cell  | Content Cell  |
+| category | String  | the category of post item  |
+| itemLocation | String  | the location of post item  |
 | createdAt  | DateTime  | date when post is created (default field)  |
 | updatedAt  | DateTime  | date when post is last updated (default field)  |
 
+#### Message
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+|   |  |  |
+|   |  |  |
+
+#### Wishlist
+| Property  | Type | Description |
+| ------------- | ------------- | ------------- |
+|   |  |  |
+|   |  |  |
+
 * If you need more object (like: User, Post in above) or object property (like: postId in Post) for your screen function, 
 * please create and add it by your self here.
+* different datatype in swift is list here for reference https://docs.parseplatform.org/rest/guide/#data-types 
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### part 1:  this part focus on user object's operation.
+* Welcome Screen
+    * no API required
+* Register Screen
+    * (Create/POST) Create a new **user**
+* Login Screen
+    * (Read/GET)log in to **user** account
+* Edit Profile Screen (new screen)
+    * (Update/PUT) Update **user** profile image
+    * (Update/PUT) Update **user** nickname
+    * (Update/PUT) Update **user** location
+
+#### part 2:  this part involve post，wishlist，message APIs, the layout is simimlar.
+* Home Screen
+    * (Read/GET)Query last 20 **post**, listed by creation time.(when user draw to the end, it will load more. )
+    * (?/?) add post to **wishlist**
+    * (?/?) remove post from **wishlist**
+    * (?/?) send **message** to item owner
+    * (?/?) purchase item (optional)
+* Search Screen [combined with the Search Result Screen]
+    * (Read/GET) Query last 20 posts **post** by a keyword (in title, discrition, itemLocation, category properties). 
+    * (Read/GET) Query last 20 posts **post** by a category 
+    * (?/?) add post to **wishlist**
+    * (?/?) remove post from **wishlist**
+    * (?/?) send **message** to item owner
+    * (?/?) purchase item (optional)
+
+#### part 3:  this part involve post，wishlist，message APIs, the layout is simimlar.
+* Item Detail Screen
+    * (Read/GET)Query the deatils of a item (price, location, title, picture, discrition...) [or you can use the data from previous creen's query]
+    * (?/?) add post to **wishlist**
+    * (?/?) remove post from **wishlist**
+    * (?/?) send **message** to item owner
+    * (?/?) purchase item (optional)
+* Create Post Screen
+    * (Create/POST) Create a new **post** object. 
+* Edit Post Screen (new)
+    * (Update/PUT) Update existing **posts** object. 
+
+#### part 4:  this part focus on message object's operation.
+* Message Screen. [you will need to create a Message object in Data Models, so that you can implement 'create,read,update,delete' on it]
+    * (Read/GET) Query the contacter history, list the last 20 contacter. [you can have contacter as a property of Message object]
+* Individual Message Screen
+    * (Read/GET) User can see the Individual **Message** history.
+    * (?/?) User can send **message** to communicate with a product owner.
+
+#### part 5:  this part focus on wishlist object's operation. involve wishlist and posts APIs
+* Profile Screen. [you will need to create a wishlist object in Data Models, so that you can implement 'create,read,update,delet' on it]
+    * (Update/PUT) Update user **wishlist** 
+    * (Read/GET) Query user's **wishlist** 
+    * (Read/GET) Query all **posts** where user is author
+    * (Delete) Delete existing **posts**
+* Settings Screen [optional]
+    *  (?/?)Lets people change password, change language, and app notification settings. (optional)
+
+#### * please read the above discrition and we will discuss the Work Assignment Plan in the coming meeting, I have all work assign into 5 parts, each teammember should be in charge of one part. (You will be responsible for the implementation)
+
+#### * I list my idea in Schema, if you have issue when implement the App, feel free to disscuss and modify it. Instead of following my writing, you should be responsible for your Work Assignment.
+
+#### * this week (by Friday April 1st), you will need to [Create basic snippets for each Parse network request] under the screen that you are incharged.
