@@ -136,9 +136,31 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/laPGNnBspN.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+
+### Data Models
+
+#### User
+| Property  | Type | Description |
+| ------------- | ------------- |
+| username  | String | unique id for the user account |
+| password  | String | password for the user account |
+
+#### Post
+| Property  | Type | Description |
+| ------------- | ------------- |
+| postId  | String  | unique id for the user post (default field)  |
+| author  | Pointer to User  | post author  |
+| image  | File  | image that user posts  |
+| title  | String  | post title  |
+| discrition  | String | the detail discrition of a post item |
+| itemPrice  | Number  | the price of post item  |
+| itemLocation | Content Cell  | Content Cell  |
+| createdAt  | DateTime  | date when post is created (default field)  |
+| updatedAt  | DateTime  | date when post is last updated (default field)  |
+
+* If you need more object (like: User, Post in above) or object property (like: postId in Post) for your screen function, 
+* please create and add it by your self here.
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
