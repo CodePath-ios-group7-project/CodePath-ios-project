@@ -1,0 +1,6 @@
+framework module Pods_FleaMarket_FleaMarketUITests {
+  umbrella header "Pods-FleaMarket-FleaMarketUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
