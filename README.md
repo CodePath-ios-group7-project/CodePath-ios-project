@@ -226,75 +226,77 @@ Here's a walkthrough of implemented user stories:
 #### part 4:  this part focus on message object's operation. -- Weiyuan Wu
 * Message Screen. 
     * (Read/GET) Query the most recently contacter history. 
-```swift
-// query the current User's recently message (as sender/receiver) history.
+	```swift
+	// query the current User's recently message (as sender/receiver) history.
 
-let sendOutMessages = PFQuery(className:"Message")
-sendOutMessages.whereKey("sender", equalTo: currentUser)
+	let sendOutMessages = PFQuery(className:"Message")
+	sendOutMessages.whereKey("sender", equalTo: currentUser)
 
-let sendInMessages = PFQuery(className:"Message")
-sendInMessages.whereKey("receiver", equalTo: currentUser)
+	let sendInMessages = PFQuery(className:"Message")
+	sendInMessages.whereKey("receiver", equalTo: currentUser)
 
-let query = PFQuery.orQuery(withSubqueries: [sendOutMessages, sendInMessages])
-query.order(byDescending: "sentAt")
+	let query = PFQuery.orQuery(withSubqueries: [sendOutMessages, sendInMessages])
+	query.order(byDescending: "sentAt")
 
-// query.limit = 20 // limit to at most 20 results; issue: maybe the latest messages are from same person
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error {
-      print(error.localizedDescription)
-   } else if let messages = messages {
-      print("Successfully retrieved \(messages.count) messages.")
-      // TODO: Do something with posts...
-   }
-}
-```
+	// query.limit = 20 // limit to at most 20 results; issue: maybe the latest messages are from same person
+	query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+	   if let error = error {
+	      print(error.localizedDescription)
+	   } else if let messages = messages {
+	      print("Successfully retrieved \(messages.count) messages.")
+	      // TODO: Do something with posts...
+	   }
+	}
+	```
 * Individual Message Screen
     * (Read/GET) User can see the Individual **Message** history.
-```swift
-// query the history messages between current user and another particular user -- Compound Queries
+	```swift
+	// query the history messages between current user and another particular user -- Compound Queries
 
-let sendOutMessages = PFQuery(className:"Message")
-sendOutMessages.whereKey("sender", equalTo: currentUser)
-sendOutMessages.whereKey("receiver", equalTo: otherUser)
+	let sendOutMessages = PFQuery(className:"Message")
+	sendOutMessages.whereKey("sender", equalTo: currentUser)
+	sendOutMessages.whereKey("receiver", equalTo: otherUser)
 
-let sendInMessages = PFQuery(className:"Message")
-sendInMessages.whereKey("sender", equalTo: otherUser)
-sendInMessages.whereKey("receiver", equalTo: currentUser)
+	let sendInMessages = PFQuery(className:"Message")
+	sendInMessages.whereKey("sender", equalTo: otherUser)
+	sendInMessages.whereKey("receiver", equalTo: currentUser)
 
-let query = PFQuery.orQuery(withSubqueries: [sendOutMessages, sendInMessages])
-query.order(byDescending: "sentAt")
-// query.limit = 100 // limit to at most 100 results;
+	let query = PFQuery.orQuery(withSubqueries: [sendOutMessages, sendInMessages])
+	query.order(byDescending: "sentAt")
+	// query.limit = 100 // limit to at most 100 results;
 
-query.findObjectsInBackground { (results: [PFObject]?, error: Error?) in
-    if let error = error {
-        // The request failed
-        print(error.localizedDescription)
-    } else if let messages = messages {
-	print("Successfully retrieved \(messages.count) messages.")
-        // results contains messages between current user and another particular user.
-    }
-}
-```
+	query.findObjectsInBackground { (results: [PFObject]?, error: Error?) in
+	    if let error = error {
+		// The request failed
+		print(error.localizedDescription)
+	    } else if let messages = messages {
+		print("Successfully retrieved \(messages.count) messages.")
+		// results contains messages between current user and another particular user.
+	    }
+	}
+	```
+
     * (Create/POST) User can send **message** to communicate with a product owner.
-```swift
-// special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
+    
+	```swift
+	// special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
 
-let message= PFObject(className:"Message")
-message["sender"] = currentUser
-message["senderName"] = surrentUser["nickname"]
-message["receiver"] = otherUser
-message["messageContent"] = messageContent
+	let message= PFObject(className:"Message")
+	message["sender"] = currentUser
+	message["senderName"] = surrentUser["nickname"]
+	message["receiver"] = otherUser
+	message["messageContent"] = messageContent
 
-message.saveInBackground { (succeeded, error)  in
-    if (succeeded) {
-	print("Successfully sent \(messages.count) message.")
-        // The object has been saved.
-    } else {
-	print(error.localizedDescription)
-        // There was a problem, check error.description
-    }
-}
-```
+	message.saveInBackground { (succeeded, error)  in
+	    if (succeeded) {
+		print("Successfully sent \(messages.count) message.")
+		// The object has been saved.
+	    } else {
+		print(error.localizedDescription)
+		// There was a problem, check error.description
+	    }
+	}
+	```
 
 #### part 5:  this part focus on wishlist object's operation. involve wishlist and posts APIs -- Dustin Burda
 * Profile Screen. [you will need to create a wishlist object in Data Models, so that you can implement 'create,read,update,delet' on it]
