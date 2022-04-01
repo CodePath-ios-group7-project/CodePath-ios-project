@@ -165,8 +165,12 @@ Here's a walkthrough of implemented user stories:
 #### Message
 | Property  | Type | Description |
 | ------------- | ------------- | ------------- |
-|   |  |  |
-|   |  |  |
+| messageId  | String | unique id for the Message |
+| sender  | Pointer to User | message sender |
+| senderName  | String | message sender's nickname |
+| receiver  | Pointer to User | message receiver |
+| messageContent  | String | the message Content |
+| sentAt  | DateTime | date when message is created (default field) |
 
 #### Wishlist
 | Property  | Type | Description |
