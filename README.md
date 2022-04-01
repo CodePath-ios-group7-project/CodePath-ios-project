@@ -180,7 +180,7 @@ Here's a walkthrough of implemented user stories:
 
 ### Networking
 
-#### part 1:  this part focus on user object's operation.
+#### part 1:  this part focus on user object's operation. -- Ziyue Wang
 * Welcome Screen
     * no API required
 * Register Screen
@@ -192,7 +192,7 @@ Here's a walkthrough of implemented user stories:
     * (Update/PUT) Update **user** nickname
     * (Update/PUT) Update **user** location
 
-#### part 2:  this part involve post，wishlist，message APIs, the layout is simimlar.
+#### part 2:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Michael Ha
 * Home Screen
     * (Read/GET)Query last 20 **post**, listed by creation time.(when user draw to the end, it will load more. )
     * (?/?) add post to **wishlist**
@@ -207,7 +207,7 @@ Here's a walkthrough of implemented user stories:
     * (?/?) send **message** to item owner
     * (?/?) purchase item (optional)
 
-#### part 3:  this part involve post，wishlist，message APIs, the layout is simimlar.
+#### part 3:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Christian Dung Nguyen
 * Item Detail Screen
     * (Read/GET)Query the deatils of a item (price, location, title, picture, discrition...) [or you can use the data from previous creen's query]
     * (?/?) add post to **wishlist**
@@ -219,14 +219,14 @@ Here's a walkthrough of implemented user stories:
 * Edit Post Screen (new)
     * (Update/PUT) Update existing **posts** object. 
 
-#### part 4:  this part focus on message object's operation.
+#### part 4:  this part focus on message object's operation. -- Weiyuan Wu
 * Message Screen. [you will need to create a Message object in Data Models, so that you can implement 'create,read,update,delete' on it]
     * (Read/GET) Query the contacter history, list the last 20 contacter. [you can have contacter as a property of Message object]
 * Individual Message Screen
     * (Read/GET) User can see the Individual **Message** history.
     * (?/?) User can send **message** to communicate with a product owner.
 
-#### part 5:  this part focus on wishlist object's operation. involve wishlist and posts APIs
+#### part 5:  this part focus on wishlist object's operation. involve wishlist and posts APIs -- Dustin Burda
 * Profile Screen. [you will need to create a wishlist object in Data Models, so that you can implement 'create,read,update,delet' on it]
     * (Update/PUT) Update user **wishlist** 
     * (Read/GET) Query user's **wishlist** 
