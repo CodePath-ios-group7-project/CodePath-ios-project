@@ -281,6 +281,18 @@ Here's a walkthrough of implemented user stories:
 	```
 * Edit Post Screen (new)
     * (Update/PUT) Update existing **posts** object. 
+    	```swift
+	  let query = PFQuery(className:"Post")
+	  query.getObjectInBackground(withId: "xWMyZEGZ") { (post: PFObject?, error: Error?) in
+                    if let error = error {
+        print(error.localizedDescription)
+        } else if let post = post {
+        post["description"] = newPostDescription 
+        post["category"] = newCategory
+        post.saveInBackground()
+         }
+        }
+	```
 
 #### part 4:  this part focus on message object's operation. -- Weiyuan Wu
 * Message Screen. 
