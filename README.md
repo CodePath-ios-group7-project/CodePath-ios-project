@@ -318,7 +318,17 @@ Here's a walkthrough of implemented user stories:
 	```
     * (DELETE) remove post from **wishlist**
     	```swift
+	   PFObject.deleteAll(inBackground: postObjectArr) { (succeeded, error) in
+    	if (succeeded) {
+	  print("Successfully delete item from wishlist")
+        // The array of objects was successfully deleted.
+   		 } else {
+           print(error.localizedDescription)
+		// There was a problem, check error.description
+    	 }
+	  }
 	```
+
     * (Create/POST) send **message** to item owner
     	```swift
 		// special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
