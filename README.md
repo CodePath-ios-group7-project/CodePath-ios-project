@@ -308,10 +308,10 @@ Here's a walkthrough of implemented user stories:
    	 } else {
             print(error.localizedDescription)
 		// There was a problem, check error.description
+    	     }
     	  }
-    	  }
-	    }
-       ```
+	```
+	    
     * (Create/POST) add post to **wishlist**
     	```swift
 	    let wishlist = PFObject(className:"Wishlist")
@@ -338,8 +338,8 @@ Here's a walkthrough of implemented user stories:
    		 } else {
            print(error.localizedDescription)
 		// There was a problem, check error.description
-    	 }
-	  }
+    	    }
+	 }
 	```
 
     * (Create/POST) send **message** to item owner
