@@ -300,9 +300,9 @@ Here's a walkthrough of implemented user stories:
 * Item Detail Screen
     * (Read/GET)Query the deatils of a item (price, location, title, picture, discrition...) [or you can use the data from previous creen's query]
        ```swift
-		let query = PFQuery(className:"Post")
-		query.getObjectInBackground(withId: "xWMyZEGZ") { (Post, error) in
-    	if error == nil {
+       let query = PFQuery(className:"Post")
+       query.getObjectInBackground(withId: "xWMyZEGZ") { (Post, error) in
+       if error == nil {
            print("Successfully open item detail screen")
 		// The object has been saved.
    	 } else {
@@ -331,36 +331,35 @@ Here's a walkthrough of implemented user stories:
 	```
     * (DELETE) remove post from **wishlist**
     	```swift
-	   PFObject.deleteAll(inBackground: postObjectArr) { (succeeded, error) in
-    	if (succeeded) {
-	  print("Successfully delete item from wishlist")
-        // The array of objects was successfully deleted.
-   		 } else {
-           print(error.localizedDescription)
+	  PFObject.deleteAll(inBackground: postObjectArr) { (succeeded, error) in
+    	  if (succeeded) {
+	  	print("Successfully delete item from wishlist")
+        	// The array of objects was successfully deleted.
+          } else {
+          	print(error.localizedDescription)
 		// There was a problem, check error.description
     	    }
-	 }
+	  }
 	```
 
     * (Create/POST) send **message** to item owner
     	```swift
-		// special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
+	  // special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
 
-		let message= PFObject(className:"Message")
-		message["sender"] = currentUser
-		message["senderName"] = surrentUser["nickname"]
-		message["receiver"] = otherUser
-		message["messageContent"] = messageContent
+	  let message= PFObject(className:"Message")
+	  message["sender"] = currentUser
+	  message["senderName"] = currentUser["nickname"]
+	  message["receiver"] = otherUser
+	  message["messageContent"] = messageContent
 
-		message.saveInBackground { (succeeded, error)  in
+	  message.saveInBackground { (succeeded, error)  in
 	    if (succeeded) {
 		print("Successfully sent \(messages.count) message.")
 		// The object has been saved.
 	    } else {
 		print(error.localizedDescription)
 		// There was a problem, check error.description
-	    }
-		}
+	    
 	```
 * Create Post Screen
     * (Create/POST) Create a new **post** object. 
