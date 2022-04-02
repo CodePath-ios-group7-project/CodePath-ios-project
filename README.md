@@ -210,7 +210,7 @@ Here's a walkthrough of implemented user stories:
 * Search Screen [combined with the Search Result Screen]
     * (Read/GET) Query last 20 posts **post** by a keyword (in title, discrition, itemLocation, category properties). 
     * (Read/GET) Query last 20 posts **post** by a category 
-    * (?/?) add post to **wishlist**
+    * (?/?]]) add post to **wishlist**
     * (?/?) remove post from **wishlist**
     * (?/?) send **message** to item owner
     * (?/?) purchase item (optional)
@@ -218,12 +218,67 @@ Here's a walkthrough of implemented user stories:
 #### part 3:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Christian Dung Nguyen
 * Item Detail Screen
     * (Read/GET)Query the deatils of a item (price, location, title, picture, discrition...) [or you can use the data from previous creen's query]
-    * (?/?) add post to **wishlist**
-    * (?/?) remove post from **wishlist**
-    * (?/?) send **message** to item owner
-    * (?/?) purchase item (optional)
+    * (Create/POST) add post to **wishlist**
+    	```swift
+	    let wishlist = PFObject(className:"Wishlist")
+            wishlist["itemName"] = itemID
+	    wishlist["image"] = item.png
+            wishlist["itemPrice"] = price
+	    wishlist["seller"] = otherUser
+            wishlist.saveInBackground { (succeeded, error)  in
+    	if (succeeded) {
+        	print("Successfully added to Wishlist")
+		// The object has been saved.
+    	} else {
+        print(error.localizedDescription)
+		// There was a problem, check error.description
+    	}
+	  }
+	```
+    * (DELETE) remove post from **wishlist**
+    	```swift
+	```
+    * (Create/POST) send **message** to item owner
+    	```swift
+		// special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
+
+		let message= PFObject(className:"Message")
+		message["sender"] = currentUser
+		message["senderName"] = surrentUser["nickname"]
+		message["receiver"] = otherUser
+		message["messageContent"] = messageContent
+
+		message.saveInBackground { (succeeded, error)  in
+	    if (succeeded) {
+		print("Successfully sent \(messages.count) message.")
+		// The object has been saved.
+	    } else {
+		print(error.localizedDescription)
+		// There was a problem, check error.description
+	    }
+		}
+	```
 * Create Post Screen
     * (Create/POST) Create a new **post** object. 
+    	```swift
+	    let wishlist = PFObject(className:"Post")
+            post["postId"] = itemID
+	    post["image"] = item.png
+            post["itemPrice"] = price
+	    post["description"] = inputDescription
+	    post["category"] = inputCatrgory
+	    post["itemLocation"] = inputLocation
+	    post["createdAt"] = createTime
+            wishlist.saveInBackground { (succeeded, error)  in
+    	if (succeeded) {
+        	print("Successfully create item post")
+		// The object has been saved.
+    	} else {
+        print(error.localizedDescription)
+		// There was a problem, check error.description
+    	}
+	  }
+	```
 * Edit Post Screen (new)
     * (Update/PUT) Update existing **posts** object. 
 
