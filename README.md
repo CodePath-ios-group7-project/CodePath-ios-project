@@ -193,12 +193,78 @@ Here's a walkthrough of implemented user stories:
     * no API required
 * Register Screen
     * (Create/POST) Create a new **user**
+    ``` swift
+    let user = PFUser()
+          user.username = usernameField.text
+          user.password = passwordField.text
+        
+        user.signUpInBackground { (success, error) in
+            if (success)
+            {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }
+            else
+            {
+                print("Error: \(error?.localizedDescription)")
+            }
+    }
+    ```
+    
 * Login Screen
     * (Read/GET)log in to **user** account
+    ``` swift
+    let username = usernameField.text!
+        let password = passwordField.text!
+        
+        PFUser.logInWithUsername(inBackground:username, password:password) {
+          (user, error) in
+          if user != nil {
+            self.performSegue(withIdentifier: "loginSegue", sender: nil)
+          } else {
+            print("Error: \(error?.localizedDescription)")
+          }
+    }
+    ```
 * Edit Profile Screen (new screen)
     * (Update/PUT) Update **user** profile image
+    ``` swift
+    let Profile= PFObject(className:"Profile")
+		profile["image"] = image
+	    if (succeeded) {
+		print("Profile image updated")
+		// The object has been saved.
+	    } else {
+		print(error.localizedDescription)
+		// There was a problem, check error.description
+	    }
+    }
+    ```
     * (Update/PUT) Update **user** nickname
+    ``` swift
+    let Profile= PFObject(className:"Profile")
+		profile["nickname"] = nickname
+	    if (succeeded) {
+		print("Profile nickname updated")
+		// The object has been saved.
+	    } else {
+		print(error.localizedDescription)
+		// There was a problem, check error.description
+	    }
+    }
+    ```
     * (Update/PUT) Update **user** location
+    ``` swift
+    let Profile= PFObject(className:"Profile")
+		profile["location"] = location
+	    if (succeeded) {
+		print("Profile location updated")
+		// The object has been saved.
+	    } else {
+		print(error.localizedDescription)
+		// There was a problem, check error.description
+	    }
+    }
+    ```
 
 #### part 2:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Michael Ha
 * Home Screen
@@ -369,7 +435,7 @@ Here's a walkthrough of implemented user stories:
 
 	let message= PFObject(className:"Message")
 	message["sender"] = currentUser
-	message["senderName"] = surrentUser["nickname"]
+	message["senderName"] = currentUser["nickname"]
 	message["receiver"] = otherUser
 	message["messageContent"] = messageContent
 
