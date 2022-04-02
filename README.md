@@ -288,6 +288,21 @@ Here's a walkthrough of implemented user stories:
     * (Delete) remove post from **wishlist**
 * Search Screen [combined with the Search Result Screen]
     * (Read/GET) Query last 20 posts **post** by a keyword (in title, discrition, itemLocation, category properties). 
+    ``` swift
+    let query = PFQuery(className: "Items")
+    query.includeKey("item")
+    query.limit = 20
+    
+    query.findObjectsInBackground { (items, error) in
+        if items != nil {
+            self.items = items!
+            self.tableView.reloadData()
+        } else {
+            print("this is item check: \(items)")
+        }
+        
+    }
+    ```
     * (Read/GET) Query last 20 posts **post** by a category 
     * (Create/POST) add post to **wishlist**
     * (Delete) remove post from **wishlist**
