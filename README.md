@@ -203,6 +203,21 @@ Here's a walkthrough of implemented user stories:
 #### part 2:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Michael Ha
 * Home Screen
     * (Read/GET)Query last 20 **post**, listed by creation time.(when user draw to the end, it will load more. )
+    ``` swift
+    let query = PFQuery(className: "Items")
+    query.includeKey("author")
+    query.limit = 20
+    
+    query.findObjectsInBackground { (items, error) in
+        if items != nil {
+            self.items = items!
+            self.tableView.reloadData()
+        } else {
+            print("this is item check: \(items)")
+        }
+        
+    }
+    ```
     * (?/?) add post to **wishlist**
     * (?/?) remove post from **wishlist**
     * (?/?) send **message** to item owner
