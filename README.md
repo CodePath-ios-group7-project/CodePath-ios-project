@@ -284,36 +284,33 @@ Here's a walkthrough of implemented user stories:
         
     }
     ```
-    * (?/?) add post to **wishlist**
-    * (?/?) remove post from **wishlist**
-    * (?/?) send **message** to item owner
-    * (?/?) purchase item (optional)
+    * (Create/POST) add post to **wishlist**
+    * (Delete) remove post from **wishlist**
 * Search Screen [combined with the Search Result Screen]
     * (Read/GET) Query last 20 posts **post** by a keyword (in title, discrition, itemLocation, category properties). 
     * (Read/GET) Query last 20 posts **post** by a category 
-    * (?/?]]) add post to **wishlist**
-    * (?/?) remove post from **wishlist**
-    * (?/?) send **message** to item owner
-    * (?/?) purchase item (optional)
+    * (Create/POST) add post to **wishlist**
+    * (Delete) remove post from **wishlist**
+    * send message to item owner [instead of connecting API here, can pass seller's UserId to individual chat screen]
 
 #### part 3:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Christian Dung Nguyen
 * Item Detail Screen
     * (Read/GET)Query the deatils of a item (price, location, title, picture, discrition...) [or you can use the data from previous creen's query]
-       ```swift
-       let query = PFQuery(className:"Post")
-       query.getObjectInBackground(withId: "xWMyZEGZ") { (Post, error) in
-       if error == nil {
-           print("Successfully open item detail screen")
+	```swift
+	let query = PFQuery(className:"Post")
+	query.getObjectInBackground(withId: "xWMyZEGZ") { (Post, error) in
+	if error == nil {
+	   print("Successfully open item detail screen")
 		// The object has been saved.
-   	 } else {
-            print(error.localizedDescription)
+	 } else {
+	    print(error.localizedDescription)
 		// There was a problem, check error.description
-    	     }
-    	  }
+	     }
+	  }
 	```
 	    
     * (Create/POST) add post to **wishlist**
-    	```swift
+	```swift
 	    let wishlist = PFObject(className:"Wishlist")
             wishlist["itemName"] = itemID
 	    wishlist["image"] = item.png
@@ -329,8 +326,9 @@ Here's a walkthrough of implemented user stories:
     	}
 	  }
 	```
+	    
     * (DELETE) remove post from **wishlist**
-    	```swift
+	```swift
 	  PFObject.deleteAll(inBackground: postObjectArr) { (succeeded, error) in
     	  if (succeeded) {
 	  	print("Successfully delete item from wishlist")
@@ -341,9 +339,9 @@ Here's a walkthrough of implemented user stories:
     	    }
 	  }
 	```
-
+	    
     * (Create/POST) send **message** to item owner
-    	```swift
+	```swift
 	  // special values are provided as properties (created by default):objectId, updatedAt, createdAt (need to double check)
 
 	  let message= PFObject(className:"Message")
@@ -359,11 +357,11 @@ Here's a walkthrough of implemented user stories:
 	    } else {
 		print(error.localizedDescription)
 		// There was a problem, check error.description
-	    
 	```
+	    
 * Create Post Screen
     * (Create/POST) Create a new **post** object. 
-    	```swift
+	```swift
 	    let wishlist = PFObject(className:"Post")
             post["postId"] = itemID
 	    post["image"] = item.png
@@ -384,7 +382,7 @@ Here's a walkthrough of implemented user stories:
 	```
 * Edit Post Screen (new)
     * (Update/PUT) Update existing **posts** object. 
-    	```swift
+	```swift
 	  let query = PFQuery(className:"Post")
 	  query.getObjectInBackground(withId: "xWMyZEGZ") { (post: PFObject?, error: Error?) in
                     if let error = error {
