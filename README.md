@@ -175,8 +175,12 @@ Here's a walkthrough of implemented user stories:
 #### Wishlist
 | Property  | Type | Description |
 | ------------- | ------------- | ------------- |
-|   |  |  |
-|   |  |  |
+| itemName  | String | unique id for the item |
+| image  | File  | image of item |
+| rank  | Number | rank of item on the wishlist |
+| itemPrice  | Number | price of item |
+| seller  | Pointer to User | the seller of the item |
+
 
 * If you need more object (like: User, Post in above) or object property (like: postId in Post) for your screen function, 
 * please create and add it by your self here.
