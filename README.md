@@ -299,19 +299,19 @@ Here's a walkthrough of implemented user stories:
 #### part 3:  this part involve post，wishlist，message APIs, the layout is simimlar. -- Christian Dung Nguyen
 * Item Detail Screen
     * (Read/GET)Query the deatils of a item (price, location, title, picture, discrition...) [or you can use the data from previous creen's query]
-    	```swift
+       ```swift
 		let query = PFQuery(className:"Post")
 		query.getObjectInBackground(withId: "xWMyZEGZ") { (Post, error) in
     	if error == nil {
            print("Successfully open item detail screen")
 		// The object has been saved.
    	 } else {
-          print(error.localizedDescription)
+            print(error.localizedDescription)
 		// There was a problem, check error.description
-    	}
-    	}
-	  }
-	```
+    	  }
+    	  }
+	    }
+       ```
     * (Create/POST) add post to **wishlist**
     	```swift
 	    let wishlist = PFObject(className:"Wishlist")
