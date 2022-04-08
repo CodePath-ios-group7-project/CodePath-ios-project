@@ -1,14 +1,14 @@
 //
-//  FeedViewController.swift
+//  DetailHomeController.swift
 //  FleaMarket
 //
-//  Created by 小元宵 on 3/30/22.
+//  Created by Michael Ha on 4/7/22.
 //
 
 import UIKit
 
-class FeedViewController: UIViewController {
-    var hello
+class DetailHomeController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

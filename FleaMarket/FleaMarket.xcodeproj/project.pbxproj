@@ -10,15 +10,16 @@
 		65400432033377659FB12FA8 /* Pods_FleaMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0B1100936F234D40BD9CDE /* Pods_FleaMarket.framework */; };
 		7090EA0527F4E85F00AB4B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA0427F4E85F00AB4B96 /* AppDelegate.swift */; };
 		7090EA0727F4E85F00AB4B96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA0627F4E85F00AB4B96 /* SceneDelegate.swift */; };
-		7090EA0927F4E85F00AB4B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA0827F4E85F00AB4B96 /* ViewController.swift */; };
 		7090EA0C27F4E85F00AB4B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7090EA0A27F4E85F00AB4B96 /* Main.storyboard */; };
 		7090EA0E27F4E86100AB4B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7090EA0D27F4E86100AB4B96 /* Assets.xcassets */; };
 		7090EA1127F4E86100AB4B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7090EA0F27F4E86100AB4B96 /* LaunchScreen.storyboard */; };
 		7090EA1C27F4E86100AB4B96 /* FleaMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA1B27F4E86100AB4B96 /* FleaMarketTests.swift */; };
 		7090EA2627F4E86100AB4B96 /* FleaMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA2527F4E86100AB4B96 /* FleaMarketUITests.swift */; };
 		7090EA2827F4E86100AB4B96 /* FleaMarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA2727F4E86100AB4B96 /* FleaMarketUITestsLaunchTests.swift */; };
-		7090EA3727F4EFF600AB4B96 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA3627F4EFF600AB4B96 /* FeedViewController.swift */; };
 		7090EA3927F4F00D00AB4B96 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7090EA3827F4F00D00AB4B96 /* LoginViewController.swift */; };
+		74B671B327FFC30F0034C057 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B671B227FFC30F0034C057 /* HomeViewController.swift */; };
+		74B671B727FFC45E0034C057 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B671B627FFC45E0034C057 /* ItemCell.swift */; };
+		74B671B927FFC98C0034C057 /* DetailHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B671B827FFC98C0034C057 /* DetailHomeController.swift */; };
 		E4115C88C9685E5151C1D6C0 /* Pods_FleaMarketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00DB8EEA0E90CF8A04F0DD8 /* Pods_FleaMarketTests.framework */; };
 		FB514E1805297DBE3E2C707A /* Pods_FleaMarket_FleaMarketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE81F63BC870C5C10E4AC0F /* Pods_FleaMarket_FleaMarketUITests.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +48,6 @@
 		7090EA0127F4E85F00AB4B96 /* FleaMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleaMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7090EA0427F4E85F00AB4B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7090EA0627F4E85F00AB4B96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7090EA0827F4E85F00AB4B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7090EA0B27F4E85F00AB4B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7090EA0D27F4E86100AB4B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7090EA1027F4E86100AB4B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +57,10 @@
 		7090EA2127F4E86100AB4B96 /* FleaMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleaMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7090EA2527F4E86100AB4B96 /* FleaMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaMarketUITests.swift; sourceTree = "<group>"; };
 		7090EA2727F4E86100AB4B96 /* FleaMarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleaMarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7090EA3627F4EFF600AB4B96 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		7090EA3827F4F00D00AB4B96 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74B671B227FFC30F0034C057 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		74B671B627FFC45E0034C057 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		74B671B827FFC98C0034C057 /* DetailHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHomeController.swift; sourceTree = "<group>"; };
 		7CE81F63BC870C5C10E4AC0F /* Pods_FleaMarket_FleaMarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleaMarket_FleaMarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE3D16C8FAF51594192C9A9 /* Pods-FleaMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaMarketTests.release.xcconfig"; path = "Target Support Files/Pods-FleaMarketTests/Pods-FleaMarketTests.release.xcconfig"; sourceTree = "<group>"; };
 		92513033D5AD41FBA45B4F1F /* Pods-FleaMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaMarket.release.xcconfig"; path = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,14 +122,12 @@
 		7090EA0327F4E85F00AB4B96 /* FleaMarket */ = {
 			isa = PBXGroup;
 			children = (
+				74B671B127FFC1070034C057 /* Controller */,
+				74B671B027FFC1020034C057 /* View */,
+				74B671AF27FFC0FE0034C057 /* Model */,
 				7090EA0427F4E85F00AB4B96 /* AppDelegate.swift */,
 				7090EA0627F4E85F00AB4B96 /* SceneDelegate.swift */,
-				7090EA0827F4E85F00AB4B96 /* ViewController.swift */,
-				7090EA0A27F4E85F00AB4B96 /* Main.storyboard */,
-				7090EA3627F4EFF600AB4B96 /* FeedViewController.swift */,
-				7090EA3827F4F00D00AB4B96 /* LoginViewController.swift */,
 				7090EA0D27F4E86100AB4B96 /* Assets.xcassets */,
-				7090EA0F27F4E86100AB4B96 /* LaunchScreen.storyboard */,
 				7090EA1227F4E86100AB4B96 /* Info.plist */,
 			);
 			path = FleaMarket;
@@ -148,6 +148,33 @@
 				7090EA2727F4E86100AB4B96 /* FleaMarketUITestsLaunchTests.swift */,
 			);
 			path = FleaMarketUITests;
+			sourceTree = "<group>";
+		};
+		74B671AF27FFC0FE0034C057 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74B671B627FFC45E0034C057 /* ItemCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74B671B027FFC1020034C057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7090EA0A27F4E85F00AB4B96 /* Main.storyboard */,
+				7090EA0F27F4E86100AB4B96 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74B671B127FFC1070034C057 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7090EA3827F4F00D00AB4B96 /* LoginViewController.swift */,
+				74B671B227FFC30F0034C057 /* HomeViewController.swift */,
+				74B671B827FFC98C0034C057 /* DetailHomeController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		9FB35EDB5246A149B991B9E6 /* Pods */ = {
@@ -412,11 +439,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7090EA0927F4E85F00AB4B96 /* ViewController.swift in Sources */,
-				7090EA3727F4EFF600AB4B96 /* FeedViewController.swift in Sources */,
+				74B671B327FFC30F0034C057 /* HomeViewController.swift in Sources */,
+				74B671B727FFC45E0034C057 /* ItemCell.swift in Sources */,
 				7090EA0527F4E85F00AB4B96 /* AppDelegate.swift in Sources */,
 				7090EA3927F4F00D00AB4B96 /* LoginViewController.swift in Sources */,
 				7090EA0727F4E85F00AB4B96 /* SceneDelegate.swift in Sources */,
+				74B671B927FFC98C0034C057 /* DetailHomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
