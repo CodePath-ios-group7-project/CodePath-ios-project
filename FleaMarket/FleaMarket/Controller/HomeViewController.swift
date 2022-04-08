@@ -7,7 +7,7 @@
 
 import UIKit
 import Parse
-
+import AlamofireImage
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
@@ -48,7 +48,7 @@ class HomeViewController: UIViewController {
         let item = items[indexPath.row]
         
         // Pass the selected item to the details view controller
-        let detailsViewController = segue.destination as! ProductDetailViewController
+        let detailsViewController = segue.destination as! DetailHomeController
         detailsViewController.item = item
         
         tableView.deselectRow(at: indexPath, animated: true)
@@ -69,19 +69,18 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         let item = post["author"] as! PFUser
         
         
-        cell.productNameLabel.text = post["productName"] as! String
-        cell.priceLabel.text = post["price"] as! String
-        cell.discriptionLabel.text = post["description"] as! String
+        cell.itemName.text = post["productName"] as! String
+        cell.itemPrice.text = post["price"] as! String
+        cell.itemDiscription.text = post["description"] as! String
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
         
-        cell.productImage.af.setImage(withURL: url)
+        cell.itemImage.af.setImage(withURL: url)
         
         return cell
     }
-    
     
 }
 
@@ -96,4 +95,4 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     */
 
-}
+

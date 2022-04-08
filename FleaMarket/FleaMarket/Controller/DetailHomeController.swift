@@ -6,9 +6,25 @@
 //
 
 import UIKit
-
+import Parse
 class DetailHomeController: UIViewController {
-
+    var item: PFObject!
+    
+    @IBOutlet weak var imageItem: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var itemLabel: UILabel!
+    
+    @IBOutlet weak var priceTag: UILabel!
+    
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    @IBOutlet weak var locationTag: UILabel!
+    
+    @IBOutlet weak var discriptionLabel: UILabel!
+    @IBOutlet weak var detailDisLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
