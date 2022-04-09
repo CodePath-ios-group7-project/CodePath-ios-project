@@ -22,6 +22,8 @@
 		74B671B927FFC98C0034C057 /* DetailHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B671B827FFC98C0034C057 /* DetailHomeController.swift */; };
 		74B671BD280087670034C057 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B671BC280087670034C057 /* SearchView.swift */; };
 		74B671BF28008B450034C057 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B671BE28008B450034C057 /* SearchCell.swift */; };
+		76BD97D02801283C00BB9B01 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BD97CF2801283C00BB9B01 /* ContactsViewController.swift */; };
+		76BD97D2280142B700BB9B01 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BD97D1280142B700BB9B01 /* ChatViewController.swift */; };
 		E4115C88C9685E5151C1D6C0 /* Pods_FleaMarketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00DB8EEA0E90CF8A04F0DD8 /* Pods_FleaMarketTests.framework */; };
 		FB514E1805297DBE3E2C707A /* Pods_FleaMarket_FleaMarketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE81F63BC870C5C10E4AC0F /* Pods_FleaMarket_FleaMarketUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +67,8 @@
 		74B671B827FFC98C0034C057 /* DetailHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHomeController.swift; sourceTree = "<group>"; };
 		74B671BC280087670034C057 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		74B671BE28008B450034C057 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		76BD97CF2801283C00BB9B01 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		76BD97D1280142B700BB9B01 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		7CE81F63BC870C5C10E4AC0F /* Pods_FleaMarket_FleaMarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FleaMarket_FleaMarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE3D16C8FAF51594192C9A9 /* Pods-FleaMarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaMarketTests.release.xcconfig"; path = "Target Support Files/Pods-FleaMarketTests/Pods-FleaMarketTests.release.xcconfig"; sourceTree = "<group>"; };
 		92513033D5AD41FBA45B4F1F /* Pods-FleaMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleaMarket.release.xcconfig"; path = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 				74B671B227FFC30F0034C057 /* HomeViewController.swift */,
 				74B671B827FFC98C0034C057 /* DetailHomeController.swift */,
 				74B671BC280087670034C057 /* SearchView.swift */,
+				76BD97CF2801283C00BB9B01 /* ContactsViewController.swift */,
+				76BD97D1280142B700BB9B01 /* ChatViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -446,12 +452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B671B327FFC30F0034C057 /* HomeViewController.swift in Sources */,
+				76BD97D02801283C00BB9B01 /* ContactsViewController.swift in Sources */,
 				74B671BF28008B450034C057 /* SearchCell.swift in Sources */,
 				74B671B727FFC45E0034C057 /* ItemCell.swift in Sources */,
 				7090EA0527F4E85F00AB4B96 /* AppDelegate.swift in Sources */,
 				74B671BD280087670034C057 /* SearchView.swift in Sources */,
 				7090EA3927F4F00D00AB4B96 /* LoginViewController.swift in Sources */,
 				7090EA0727F4E85F00AB4B96 /* SceneDelegate.swift in Sources */,
+				76BD97D2280142B700BB9B01 /* ChatViewController.swift in Sources */,
 				74B671B927FFC98C0034C057 /* DetailHomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,6 +648,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -669,6 +678,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
