@@ -503,9 +503,22 @@ Here's a walkthrough of implemented user stories:
 
 
 ## Sprint-Plan
-### Sprint Plan 1
+### Sprint Plan 1 -- by April 08, 2022
+Every team member should break down their part into issues(user story/small task) and add them to our project board on Github.
+Every team member should finish at least 1 Screen this week.
 
-### Sprint Plan 2
 
-### Sprint Plan 3
+### Sprint Plan 2 -- by April 15, 2022
+Every team member should finish all remaining screens this week.
 
+
+### Sprint Plan 3 -- by April 22, 2022
+Every team member should finish settling the connection/cooperation between different screens and test the application this week.
+
+
+workload assigned
+part 1: Welcome Screen, Register Screen, Login Screen, Edit Profile Screen -- Ziyue Wang
+part 2: Home Screen, Search Screen [combined with the Search Result Screen], -- Michael Ha
+part 3: Item Detail Screen, Create Post Screen, Edit Post Screen (new) -- Christian Dung Nguyen
+part 4: Message Screen, Individual Message Screen -- Weiyuan Wu
+part 5: Profile Screen. Settings Screen [optional] -- Dustin Burda
