@@ -27,21 +27,21 @@ It's designed for people in same city to trade second-hand items. As a seller: S
 
 
 
-+ The users can list items
-  1. The users can upload photos of the items
-  2. The users can upload text detail description of the items 
-  3. The users can list price of the items 
-* The users can create an account and log in 
-* The users can fill in their personal information for their user profile
-* The users communicate through a messaging system 
-* The users can look at a feed of nearby used items 
-* The users can look at more details of an item by tapping on it
-* The users can search used items by key word. 
+- [ ] The users can list items
+  - [ ] 1. The users can upload photos of the items
+  - [ ] 2. The users can upload text detail description of the items 
+  - [ ] 3. The users can list price of the items 
+- [x]  The users can create an account and log in 
+- [ ]  The users can fill in their personal information for their user profile
+- [ ]  The users communicate through a messaging system 
+- [ ] The users can look at a feed of nearby used items 
+- [ ] The users can look at more details of an item by tapping on it
+- [x] The users can search used items by keyword. 
 
 **Optional Nice-to-have Stories**
 
-* The app can locate users 
-* The users can pay online for their items
+- [ ] The app can locate users 
+- [ ] The users can pay online for their items
 
 ### 2. Screen Archetypes
 
