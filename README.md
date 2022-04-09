@@ -515,6 +515,13 @@ Every team member should finish at least 1 Screen this week.
 - [x] The users can search used items by keyword. 
 
 
+
+#### Video Walkthrough
+
+Here's a Gifs created to show build progress:
+
+<img src='http://g.recordit.co/tbveBwS3qK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ### Sprint Plan 2 -- by April 15, 2022
 Every team member should finish all remaining screens this week.
 - [ ]  The users can fill in their personal information for their user profile
@@ -527,7 +534,7 @@ Every team member should finish all remaining screens this week.
 Every team member should finish settling the connection/cooperation between different screens and test the application this week.
 
 
-workload assigned
+#### workload assigned
 
 part 1: Welcome Screen, Register Screen, Login Screen, Edit Profile Screen -- Ziyue Wang
 
