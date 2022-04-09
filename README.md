@@ -495,12 +495,7 @@ Here's a walkthrough of implemented user stories:
 * Settings Screen [optional]
     *  (?/?)Lets people change password, change language, and app notification settings. (optional)
 
-#### * please read the above discrition and we will discuss the Work Assignment Plan in the coming meeting, I have all work assign into 5 parts, each teammember should be in charge of one part. (You will be responsible for the implementation)
-
-#### * I list my idea in Schema, if you have issue when implement the App, feel free to disscuss and modify it. Instead of following my writing, you should be responsible for your Work Assignment.
-
-#### * this week (by Friday April 1st), you will need to [Create basic snippets for each Parse network request] under the screen that you are incharged.
-
+#### * The workload are assigned into 5 parts, each teammember should be in charge of one part. You will be responsible for the implementation.
 
 ## Sprint-Plan
 ### Sprint Plan 1 -- by April 08, 2022
