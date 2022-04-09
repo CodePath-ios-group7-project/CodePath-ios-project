@@ -507,9 +507,20 @@ Here's a walkthrough of implemented user stories:
 Every team member should break down their part into issues(user story/small task) and add them to our project board on Github.
 Every team member should finish at least 1 Screen this week.
 
+- [ ] The users can list items
+  - [ ] 1. The users can upload photos of the items
+  - [ ] 2. The users can upload text detail description of the items 
+  - [ ] 3. The users can list price of the items 
+- [x]  The users can create an account and log in 
+- [x] The users can search used items by keyword. 
+
 
 ### Sprint Plan 2 -- by April 15, 2022
 Every team member should finish all remaining screens this week.
+- [ ]  The users can fill in their personal information for their user profile
+- [ ]  The users communicate through a messaging system 
+- [ ] The users can look at a feed of nearby used items 
+- [ ] The users can look at more details of an item by tapping on it
 
 
 ### Sprint Plan 3 -- by April 22, 2022
@@ -520,7 +531,7 @@ workload assigned
 
 part 1: Welcome Screen, Register Screen, Login Screen, Edit Profile Screen -- Ziyue Wang
 
-part 2: Home Screen, Search Screen [combined with the Search Result Screen], -- Michael Ha
+part 2: Home Screen, Search Screen [combined with the Search Result Screen] -- Michael Ha
 
 part 3: Item Detail Screen, Create Post Screen, Edit Post Screen (new) -- Christian Dung Nguyen
 
