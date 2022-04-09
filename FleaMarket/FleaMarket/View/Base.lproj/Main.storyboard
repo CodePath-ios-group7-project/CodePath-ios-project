@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="FleaMarket" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoginViewController" customModule="FleaMarket" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,6 +119,37 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
+        <!--Contacts View Controller-->
+        <scene sceneID="prE-XA-aDD">
+            <objects>
+                <viewController title="Contacts View Controller" modalPresentationStyle="fullScreen" id="h1J-jp-I9i" customClass="ContactsViewController" customModule="FleaMarket" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dOa-OT-TqU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mra-G2-31P">
+                                <rect key="frame" x="0.0" y="56" width="414" height="757"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pFc-rc-vnC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mra-G2-31P" firstAttribute="top" secondItem="pFc-rc-vnC" secondAttribute="top" id="J0z-T2-1bI"/>
+                            <constraint firstItem="pFc-rc-vnC" firstAttribute="trailing" secondItem="Mra-G2-31P" secondAttribute="trailing" id="N7c-Ge-le9"/>
+                            <constraint firstItem="pFc-rc-vnC" firstAttribute="bottom" secondItem="Mra-G2-31P" secondAttribute="bottom" id="mfu-RP-vD5"/>
+                            <constraint firstItem="Mra-G2-31P" firstAttribute="leading" secondItem="pFc-rc-vnC" secondAttribute="leading" id="sd2-p6-ypY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contacts" id="Ui8-P2-pyt"/>
+                    <connections>
+                        <outlet property="myTable" destination="Mra-G2-31P" id="JnO-6Q-u11"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wYa-qd-c4z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287" y="976"/>
+        </scene>
         <!--Item-->
         <scene sceneID="rwi-k4-OSJ">
             <objects>
@@ -167,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugu-hX-AUI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2579.7101449275365" y="502.90178571428567"/>
+            <point key="canvasLocation" x="3489.8550724637685" y="502.90178571428567"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="x3Y-rR-19f">
@@ -351,7 +382,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="bol-eo-hDr">
             <objects>
-                <tabBarController id="dIc-pu-l5N" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="dIc-pu-l5N" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="eBJ-xl-0OY"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vga-zw-i1S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -361,6 +392,7 @@
                     <connections>
                         <segue destination="AAn-WX-gBD" kind="relationship" relationship="viewControllers" id="THX-BB-okV"/>
                         <segue destination="9aK-To-y8B" kind="relationship" relationship="viewControllers" id="aeq-X6-rDe"/>
+                        <segue destination="zmf-Gy-5Rt" kind="relationship" relationship="viewControllers" id="PKT-Ph-9mU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFQ-P8-cz6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -385,6 +417,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7BU-Zg-ElL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2579.7101449275365" y="-346.20535714285711"/>
+        </scene>
+        <!--Messages-->
+        <scene sceneID="W2s-BZ-LDz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="zmf-Gy-5Rt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Messages" id="p6Q-8f-gJz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4cV-Lf-cQg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h1J-jp-I9i" kind="relationship" relationship="rootViewController" id="jb0-7z-Zvy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ias-qi-hK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="976"/>
         </scene>
     </scenes>
     <resources>

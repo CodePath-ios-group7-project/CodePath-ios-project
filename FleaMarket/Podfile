@@ -8,6 +8,7 @@ target 'FleaMarket' do
   # Pods for FleaMarket
     pod 'Parse'
     pod 'AlamofireImage'
+    pod 'MessageKit'
 
   target 'FleaMarketTests' do
     inherit! :search_paths
