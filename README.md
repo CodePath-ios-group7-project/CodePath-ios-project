@@ -520,7 +520,7 @@ Every team member should finish at least 1 Screen this week.
 
 Here's a Gifs created to show build progress:
 
-<img src='http://g.recordit.co/tbveBwS3qK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/vt2e1L9Z0A.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Sprint Plan 2 -- by April 15, 2022
 Every team member should finish all remaining screens this week.
