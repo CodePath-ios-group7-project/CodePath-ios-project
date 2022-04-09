@@ -518,7 +518,12 @@ Every team member should finish settling the connection/cooperation between diff
 
 workload assigned
 part 1: Welcome Screen, Register Screen, Login Screen, Edit Profile Screen -- Ziyue Wang
+
 part 2: Home Screen, Search Screen [combined with the Search Result Screen], -- Michael Ha
+
 part 3: Item Detail Screen, Create Post Screen, Edit Post Screen (new) -- Christian Dung Nguyen
+
 part 4: Message Screen, Individual Message Screen -- Weiyuan Wu
+
 part 5: Profile Screen. Settings Screen [optional] -- Dustin Burda
+
