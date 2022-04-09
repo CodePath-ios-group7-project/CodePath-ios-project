@@ -5,6 +5,7 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+3. [Sprint Plan](#Sprint-Plan)
 
 ## Overview
 ### Description
@@ -499,3 +500,12 @@ Here's a walkthrough of implemented user stories:
 #### * I list my idea in Schema, if you have issue when implement the App, feel free to disscuss and modify it. Instead of following my writing, you should be responsible for your Work Assignment.
 
 #### * this week (by Friday April 1st), you will need to [Create basic snippets for each Parse network request] under the screen that you are incharged.
+
+
+## Sprint-Plan
+### Sprint Plan 1
+
+### Sprint Plan 2
+
+### Sprint Plan 3
+
