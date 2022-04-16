@@ -524,8 +524,10 @@ Every team member should finish all remaining screens this week.
 - [ ] The users can look at a feed of nearby used items 
 - [ ] The users can look at more details of an item by tapping on it
 
-Here's a Gifs created to show build progress:
+Here's a Gifs created to show build progress:  
+
 ![Fleamarket Walkthrough](./fleamarket.gif)
+
 ### Sprint Plan 3 -- by April 22, 2022
 Every team member should finish settling the connection/cooperation between different screens and test the application this week.
 
