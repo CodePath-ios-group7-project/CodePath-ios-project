@@ -502,10 +502,10 @@ Here's a walkthrough of implemented user stories:
 Every team member should break down their part into issues(user story/small task) and add them to our project board on Github.
 Every team member should finish at least 1 Screen this week.
 
-- [ ] The users can list items
-  - [ ] 1. The users can upload photos of the items
-  - [ ] 2. The users can upload text detail description of the items 
-  - [ ] 3. The users can list price of the items 
+- [x] The users can list items
+  - [x] 1. The users can upload photos of the items
+  - [x] 2. The users can upload text detail description of the items 
+  - [x] 3. The users can list price of the items 
 - [x]  The users can create an account and log in 
 - [x] The users can search used items by keyword. 
 
@@ -524,7 +524,8 @@ Every team member should finish all remaining screens this week.
 - [ ] The users can look at a feed of nearby used items 
 - [ ] The users can look at more details of an item by tapping on it
 
-
+Here's a Gifs created to show build progress:
+![Fleamarket Walkthrough](./fleamarket.gif)
 ### Sprint Plan 3 -- by April 22, 2022
 Every team member should finish settling the connection/cooperation between different screens and test the application this week.
 
