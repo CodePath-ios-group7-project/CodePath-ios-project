@@ -7,6 +7,7 @@
 
 import UIKit
 import AlamofireImage
+import Parse
 class AddPostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
@@ -25,6 +26,37 @@ class AddPostViewController: UIViewController, UIImagePickerControllerDelegate, 
     
 
     @IBAction func onSubmitButton(_ sender: Any) {
+        let post = PFObject(className: "Posts")
+        
+        post["author"] = PFUser.current()
+        post["title"] = titleField.text!
+        post["price"] = priceField.text!
+        post["location"] = locationField.text!
+        post["description"] = descriptionField.text!
+        
+        let imageData = imageView.image!.pngData()
+        let file = PFFileObject(name: "image.png", data: imageData!)
+        
+        post["image"] = file
+
+        let alertController = UIAlertController(title: "Alert", message: "Post saved!", preferredStyle: .alert)
+        let OKAction = UIAlertAction(title: "OK", style: .default) {
+            (action: UIAlertAction!) in
+            // Code in this block will trigger when OK button tapped.
+            print("Ok button tapped");
+        }
+        alertController.addAction(OKAction)
+
+        post.saveInBackground{ (success, error) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+                self.present(alertController, animated: true, completion: nil)
+            } else {
+                print("error!")
+            }
+        }
+        
+        
     }
     @IBAction func onCameraButton(_ sender: Any) {
         let picker = UIImagePickerController()
