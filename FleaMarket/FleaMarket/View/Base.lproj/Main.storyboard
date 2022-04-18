@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dIc-pu-l5N">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dIc-pu-l5N">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoginViewController" customModule="FleaMarket" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoginViewController" customModule="FleaMarket" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,7 +189,7 @@
                         <viewLayoutGuide key="safeArea" id="150-yj-cUp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="utE-5K-5Lg"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="utE-5K-5Lg"/>
                     <connections>
                         <outlet property="searchBar" destination="Jfy-eP-EEV" id="d5r-0Z-6PM"/>
                         <outlet property="searchLabel" destination="DJY-Bx-eUY" id="0sM-OQ-doz"/>
@@ -281,7 +281,13 @@
                         <viewLayoutGuide key="safeArea" id="5yh-h9-vsj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="MvF-F9-PMh"/>
+                    <navigationItem key="navigationItem" id="MvF-F9-PMh">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="aoj-2A-xVW">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="zc0-8Q-kvp" id="Cq4-K5-uEQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="DEZ-xr-pgc" id="2Zl-sF-FLj"/>
                     </connections>
@@ -404,7 +410,7 @@
         <scene sceneID="O8e-8A-JJb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AAn-WX-gBD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="homekit" catalog="system" selectedImage="homekit" id="mlo-Ue-V5w"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" selectedImage="house" id="mlo-Ue-V5w"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4BM-zN-z4q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -511,7 +517,7 @@
                         <viewLayoutGuide key="safeArea" id="DLh-tV-V78"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add post" selectedImage="plus" catalog="system" id="Oe1-qs-LNE"/>
+                    <tabBarItem key="tabBarItem" title="Add post" image="plus" catalog="system" selectedImage="plus" id="Oe1-qs-LNE"/>
                     <connections>
                         <outlet property="descriptionField" destination="7MJ-on-AHf" id="ZZX-VK-5CO"/>
                         <outlet property="imageView" destination="aGz-1I-Xe8" id="GvP-O7-Qhz"/>
@@ -533,7 +539,7 @@
         <scene sceneID="W2s-BZ-LDz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="zmf-Gy-5Rt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Messages" id="p6Q-8f-gJz"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="message" catalog="system" selectedImage="message" id="p6Q-8f-gJz"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4cV-Lf-cQg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -552,7 +558,9 @@
     <resources>
         <image name="bubble_full" width="56" height="35"/>
         <image name="heart" catalog="system" width="128" height="109"/>
-        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="message" catalog="system" width="128" height="113"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="welcome" width="522" height="948"/>
         <systemColor name="opaqueSeparatorColor">
