@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E532CFEDEEA9316D5C5A970F02492F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		009311CAE0112017C459EC69C3CDF673 /* PFUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F006D71DB0ACF759AB55BE24D529AC /* PFUserController.m */; };
 		009AC946E602EB421344B07336BD1B8C /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B908539C4A482A58EDC02095F4B109EA /* BFTaskCompletionSource.m */; };
@@ -495,6 +496,8 @@
 		};
 		1005F6171BD3AE3B37B98BA09597FEA4 /* PBXContainerItemProxy */ = {
 =======
+=======
+>>>>>>> Stashed changes
 		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7172CDE817C30B8C0F818B418F64805C /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		009311CAE0112017C459EC69C3CDF673 /* PFUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF09EF244C7028F687736C71D996DCDF /* PFUserController.m */; };
 		009AC946E602EB421344B07336BD1B8C /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A410A725F7EB892A1560129AFB8D88A /* BFTaskCompletionSource.m */; };
@@ -1093,6 +1096,9 @@
 			remoteInfo = Parse;
 		};
 		394FC6C2036ED9D937132C1F4D3D296D /* PBXContainerItemProxy */ = {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1101,8 +1107,11 @@
 			remoteInfo = Alamofire;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		23F88FC18A6784A9986A8F2F7E050213 /* PBXContainerItemProxy */ = {
 =======
+=======
+>>>>>>> Stashed changes
 		48C34CC11DBB53E5BEA56E0A16B82B2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1111,6 +1120,9 @@
 			remoteInfo = InputBarAccessoryView;
 		};
 		66537A4F0C00433EBB42EA01FC9CD88D /* PBXContainerItemProxy */ = {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1118,6 +1130,7 @@
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		2D71EA6B04755E7DAA22DEBBA8CA50BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1128,6 +1141,8 @@
 		};
 		3784E59BD7B95CA5F9EEDCC72D66FA11 /* PBXContainerItemProxy */ = {
 =======
+=======
+>>>>>>> Stashed changes
 		69D42156A31BEC570DEF7FBA6E0DEE84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1157,6 +1172,9 @@
 			remoteInfo = InputBarAccessoryView;
 		};
 		A4D7AC621F55F48FE49A879F3849FBFA /* PBXContainerItemProxy */ = {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1164,6 +1182,7 @@
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		648FD5D1D2BD5BE13938C4BD4CAF6424 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1188,6 +1207,8 @@
 		};
 		D375AAFD80BC2A67403B8565505197BA /* PBXContainerItemProxy */ = {
 =======
+=======
+>>>>>>> Stashed changes
 		AEE56DEE04838AAFB7D925BD1339DC74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1210,6 +1231,9 @@
 			remoteInfo = MessageKit;
 		};
 		CDD15C1DB38E75B3E5D794D5FFDA0F5C /* PBXContainerItemProxy */ = {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1217,6 +1241,7 @@
 			remoteGlobalIDString = 42465A188431886AB035275F049824D3;
 			remoteInfo = Bolts;
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EAB50F804209FE842E2A2B51978FC7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1232,6 +1257,8 @@
 			remoteGlobalIDString = EAFFB8E885E2EDFD55062DE694143593;
 			remoteInfo = "Parse-Parse";
 =======
+=======
+>>>>>>> Stashed changes
 		E3BD82B931710237C65C8475805ECC57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -1252,11 +1279,15 @@
 			proxyType = 1;
 			remoteGlobalIDString = 42465A188431886AB035275F049824D3;
 			remoteInfo = Bolts;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		0019056FD5AB19305AEB7C0D9508694E /* PFURLSessionJSONDataTaskDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFURLSessionJSONDataTaskDelegate.h; path = Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/TaskDelegate/PFURLSessionJSONDataTaskDelegate.h; sourceTree = "<group>"; };
 		009A4E42BED95417447A40A4A30A582A /* PFErrorUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFErrorUtilities.h; path = Parse/Parse/Internal/PFErrorUtilities.h; sourceTree = "<group>"; };
@@ -1785,6 +1816,8 @@
 			buildActionMask = 2147483647;
 			files = (
 =======
+=======
+>>>>>>> Stashed changes
 		013E272EE6CCA6377B0562AAF7C44663 /* PFInternalUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFInternalUtils.m; path = Parse/Parse/Internal/PFInternalUtils.m; sourceTree = "<group>"; };
 		01C4C25F42A0ABEDA918D6494C9DB4C2 /* PFUserFileCodingLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFUserFileCodingLogic.h; path = Parse/Parse/Internal/User/Coder/File/PFUserFileCodingLogic.h; sourceTree = "<group>"; };
 		024666265C6996DBA167D4630E89096C /* PFQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFQuery.m; path = Parse/Parse/PFQuery.m; sourceTree = "<group>"; };
@@ -2434,6 +2467,9 @@
 			files = (
 				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
 				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2447,16 +2483,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		514822E2B981EE34FE3E225494196373 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				753EABFE937CB219C42071691A84F57F /* Foundation.framework in Frameworks */,
 =======
+=======
+>>>>>>> Stashed changes
 		555A426B003FF21B29B46DB5E6B417C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2486,7 +2528,10 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		A9C5BD047B22519C17F85969BED5B2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2496,6 +2541,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		BCA652F536C59BCB01511C6C7756B176 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -2506,12 +2554,15 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		FBEAF69267A221F73D87C3E49DCC8ED8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C802256E5EAB0E9012C09DE831E88012 /* Foundation.framework in Frameworks */,
 =======
+=======
+>>>>>>> Stashed changes
 		C441205F04CC11E9A7BDEEA695B7D1A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2525,6 +2576,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE179B99E0E8106DAF660F4EADD3F57E /* Foundation.framework in Frameworks */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2532,6 +2586,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		0656CE04288357F0748AB498835BA03E /* Frameworks */ = {
 			isa = PBXGroup;
@@ -2563,6 +2618,8 @@
 			);
 			name = Resources;
 =======
+=======
+>>>>>>> Stashed changes
 		015934DBD1AE0FA67F5DA9F98BD00CB9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -2639,6 +2696,9 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Parse";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
@@ -2660,12 +2720,15 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		2E89337313A5C48E9325301064C650D4 /* Bolts */ = {
 			isa = PBXGroup;
 			children = (
 				5432D08DF2FDDA2EA1413523D5D6F947 /* Support Files */,
 				B8A6C6F4F73A8833C4403AB511E92D46 /* Tasks */,
 =======
+=======
+>>>>>>> Stashed changes
 		29C2A783FBAE28372DCF3C4933A61A0C /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -3100,12 +3163,16 @@
 			children = (
 				CF8DF6D57E71FB2C0648DC96404272DD /* Support Files */,
 				3E1F0473665CCFD130F2CA69A290D5F3 /* Tasks */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			name = Bolts;
 			path = Bolts;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		30AC368CE6C936B02D3CA217EC1B9BA4 /* Pods */ = {
 			isa = PBXGroup;
@@ -3176,6 +3243,8 @@
 			name = "Support Files";
 			path = "../Target Support Files/Parse";
 =======
+=======
+>>>>>>> Stashed changes
 		4DECF7DA960E126AEAE51EB12129763C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -3278,6 +3347,9 @@
 				3D7E1E7F0BF2DA1D5E1E38FD3BE498CA /* en.lproj */,
 			);
 			name = Resources;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
@@ -3298,7 +3370,10 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		88E84AA557829CA32E1B6C1C70AE0A0F /* AlamofireImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -3327,6 +3402,9 @@
 			path = InputBarAccessoryView;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		8D0D462AAAE288A33A8FF08A9BDB75EB /* Pods-FleaMarket */ = {
 			isa = PBXGroup;
@@ -3345,6 +3423,7 @@
 			path = "Target Support Files/Pods-FleaMarket";
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		A5EE57AD6B37DEFA50C5A352F00C79FF /* Support Files */ = {
 			isa = PBXGroup;
@@ -3744,12 +3823,17 @@
 			);
 			name = Core;
 =======
+=======
+>>>>>>> Stashed changes
 		AC604CC94550D4AEDA986A0926382EE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				DA6842747DFB40BC8BEDC3AF1439F6A4 /* Assets.xcassets */,
 			);
 			name = Resources;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
@@ -3763,6 +3847,7 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		B46FEC24D279F1E073B746499FD8001D /* iOS */ = {
 			isa = PBXGroup;
@@ -3872,6 +3957,8 @@
 			name = Alamofire;
 			path = Alamofire;
 =======
+=======
+>>>>>>> Stashed changes
 		B51963544676A5D967CB602430DC64E0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -4006,6 +4093,9 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MessageKit";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
@@ -4013,12 +4103,15 @@
 
 /* Begin PBXHeadersBuildPhase section */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		1B03569E8F2385373D77942C4814AEAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				313FD9629A122BB260A7A7A282045BE7 /* Pods-FleaMarket-umbrella.h in Headers */,
 =======
+=======
+>>>>>>> Stashed changes
 		0ED29EBFA3ABCE82E4D9621765EC7B32 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -4032,6 +4125,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				48CF9B9B730B717AFECE52D0F5D73C31 /* MessageKit-umbrella.h in Headers */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4045,12 +4141,15 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		93467CDB8A65A968A5D0E851F72E4160 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3B65BF6B67E62DEBEDE84858371870BC /* Pods-FleaMarket-FleaMarketUITests-umbrella.h in Headers */,
 =======
+=======
+>>>>>>> Stashed changes
 		79ECF3B7C9988939F23BC51D398AA695 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -4064,6 +4163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C602359349F288B09AD0640FE09BC0ED /* Pods-FleaMarket-umbrella.h in Headers */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4345,7 +4447,11 @@
 			);
 			dependencies = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				739E30D10154CEEFC7D458D1934755E2 /* PBXTargetDependency */,
+=======
+				05C211CA82C0CFD6ED92E1D2195BEC12 /* PBXTargetDependency */,
+>>>>>>> Stashed changes
 =======
 				05C211CA82C0CFD6ED92E1D2195BEC12 /* PBXTargetDependency */,
 >>>>>>> Stashed changes
@@ -4356,7 +4462,10 @@
 			productType = "com.apple.product-type.framework";
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		2D834CBBD351637528FA6B93E42745DC /* MessageKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9337ED340BEB01B953DBB0C9ED2D4DB4 /* Build configuration list for PBXNativeTarget "MessageKit" */;
@@ -4376,6 +4485,9 @@
 			productReference = 15A68A8F33BD9EB9AFD02465B0418BCF /* MessageKit */;
 			productType = "com.apple.product-type.framework";
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		42465A188431886AB035275F049824D3 /* Bolts */ = {
 			isa = PBXNativeTarget;
@@ -4398,6 +4510,7 @@
 		794433141449220E3550490C654A8140 /* Pods-FleaMarket-FleaMarketUITests */ = {
 			isa = PBXNativeTarget;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			buildConfigurationList = 7FE83AEF424E379655BF12170FDA3DE3 /* Build configuration list for PBXNativeTarget "Pods-FleaMarket-FleaMarketUITests" */;
 			buildPhases = (
 				93467CDB8A65A968A5D0E851F72E4160 /* Headers */,
@@ -4405,29 +4518,40 @@
 				FBEAF69267A221F73D87C3E49DCC8ED8 /* Frameworks */,
 				0B682EAC96129FD537C10C142D92A79D /* Resources */,
 =======
+=======
+>>>>>>> Stashed changes
 			buildConfigurationList = 6EF5343B74ED948F96190915C85D1FAE /* Build configuration list for PBXNativeTarget "Pods-FleaMarket-FleaMarketUITests" */;
 			buildPhases = (
 				0ED29EBFA3ABCE82E4D9621765EC7B32 /* Headers */,
 				2DC2F9E25430133F2318E949EC9C087F /* Sources */,
 				0DC2EF57F2980F96C5FCE56C940C5982 /* Frameworks */,
 				79F4C1362E17A9579E38CA79E6A53E95 /* Resources */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			buildRules = (
 			);
 			dependencies = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				FE2C5C5F958A5130C05F7A630B28CC4B /* PBXTargetDependency */,
 				9590AAE7215F8877EB94484DBF9324FB /* PBXTargetDependency */,
 				390536F0BE482B3DAA8BA52F3A924CF9 /* PBXTargetDependency */,
 				522D12ED50BDEBCE07E749B383B72477 /* PBXTargetDependency */,
 =======
+=======
+>>>>>>> Stashed changes
 				204AB2CC56AC85DAC154CCBA8B45D748 /* PBXTargetDependency */,
 				18A57ED919D24C6A53647A594C97E60D /* PBXTargetDependency */,
 				4222554224CBEB1D6C82D227649774DF /* PBXTargetDependency */,
 				222183A02CB3CD81091B0F8909636DDC /* PBXTargetDependency */,
 				D7EBB1BDBD5176846DCE2558BA3CB75B /* PBXTargetDependency */,
 				525F522A633FAF760C1729FBFEBF0F9A /* PBXTargetDependency */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			name = "Pods-FleaMarket-FleaMarketUITests";
@@ -4448,8 +4572,13 @@
 			);
 			dependencies = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				41A8C2230A3612EC2178E9D8C6240E80 /* PBXTargetDependency */,
 				1AA355AA5CA99B772E511ECA36B787A5 /* PBXTargetDependency */,
+=======
+				FC61E98822E12C2C5D8E90446AAE85A0 /* PBXTargetDependency */,
+				12154FA50E8F063F7DD5555963A6F64A /* PBXTargetDependency */,
+>>>>>>> Stashed changes
 =======
 				FC61E98822E12C2C5D8E90446AAE85A0 /* PBXTargetDependency */,
 				12154FA50E8F063F7DD5555963A6F64A /* PBXTargetDependency */,
@@ -4461,7 +4590,10 @@
 			productType = "com.apple.product-type.framework";
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FAEE34BCA4C1B0FB518050D7129A19 /* Build configuration list for PBXNativeTarget "InputBarAccessoryView" */;
@@ -4480,6 +4612,9 @@
 			productReference = B81513B0B3333500DFFB1B1B179FB571 /* InputBarAccessoryView */;
 			productType = "com.apple.product-type.framework";
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */ = {
 			isa = PBXNativeTarget;
@@ -4494,7 +4629,11 @@
 			);
 			dependencies = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				FDD8C40A3D978CD59F5AB6D38C95D8C2 /* PBXTargetDependency */,
+=======
+				B042B959E7E715BFD2749DE5C0A83AA4 /* PBXTargetDependency */,
+>>>>>>> Stashed changes
 =======
 				B042B959E7E715BFD2749DE5C0A83AA4 /* PBXTargetDependency */,
 >>>>>>> Stashed changes
@@ -4507,6 +4646,7 @@
 		DDFD26B81E1A7485A4A5777FAAD54E20 /* Pods-FleaMarket */ = {
 			isa = PBXNativeTarget;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			buildConfigurationList = 195FCE550607F23B257E763E91256D3F /* Build configuration list for PBXNativeTarget "Pods-FleaMarket" */;
 			buildPhases = (
 				1B03569E8F2385373D77942C4814AEAE /* Headers */,
@@ -4514,29 +4654,40 @@
 				514822E2B981EE34FE3E225494196373 /* Frameworks */,
 				C9D083242A145A03097DCA20BCA668B6 /* Resources */,
 =======
+=======
+>>>>>>> Stashed changes
 			buildConfigurationList = 72A30EFE1BC4A0238BF1B666E9E1FFFA /* Build configuration list for PBXNativeTarget "Pods-FleaMarket" */;
 			buildPhases = (
 				946CB66ADA66592401BC2EB32C239222 /* Headers */,
 				AAD3065F3A4A6B18B02965B977AA41F2 /* Sources */,
 				C441205F04CC11E9A7BDEEA695B7D1A1 /* Frameworks */,
 				FC2E714B043067B0E66506609E1FB26D /* Resources */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			buildRules = (
 			);
 			dependencies = (
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				8D324975D30043274A69BDBAF204ED1A /* PBXTargetDependency */,
 				EEDE06D8AAA0C533B4AAD268BF0AAF0A /* PBXTargetDependency */,
 				040C33AA9F5412AC33BC89910276FD02 /* PBXTargetDependency */,
 				CEDB9D50D5A662F3FB3AE36AB6252741 /* PBXTargetDependency */,
 =======
+=======
+>>>>>>> Stashed changes
 				B7976BFD25A1E8F68FDAD4EACC6CF617 /* PBXTargetDependency */,
 				A567C889607E43A321A08BCFCB7E3923 /* PBXTargetDependency */,
 				66FB57FF84FF0A19E28BAF86521B913B /* PBXTargetDependency */,
 				6A067401E55C0EBE35CA7452ADE5406D /* PBXTargetDependency */,
 				0741D05C43E32D8F354C74F56A190D4E /* PBXTargetDependency */,
 				248B549D85466BB8A2732409C22F3D81 /* PBXTargetDependency */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			name = "Pods-FleaMarket";
@@ -4565,17 +4716,23 @@
 		EAFFB8E885E2EDFD55062DE694143593 /* Parse-Parse */ = {
 			isa = PBXNativeTarget;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			buildConfigurationList = 268D21D93D946E9966855B4E68C40355 /* Build configuration list for PBXNativeTarget "Parse-Parse" */;
 			buildPhases = (
 				5B31D915A82A36852756EFC2B987CEAC /* Sources */,
 				3CFFDC2EC3625D04FC5D2930801D43E5 /* Frameworks */,
 				71EE1D60A9A1F4495F08B0B3A6045197 /* Resources */,
 =======
+=======
+>>>>>>> Stashed changes
 			buildConfigurationList = 3986821B34E0DCACC3887697458A8DF8 /* Build configuration list for PBXNativeTarget "Parse-Parse" */;
 			buildPhases = (
 				02CA1CEE74FB761D2B497991546AACE2 /* Sources */,
 				555A426B003FF21B29B46DB5E6B417C3 /* Frameworks */,
 				D5A175A2B65B6F09ED566B984B3F68EC /* Resources */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			buildRules = (
@@ -4606,7 +4763,11 @@
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			productRefGroup = BD7183F3ADEACBB8A637D0A74C1F0B93 /* Products */;
+=======
+			productRefGroup = 4DECF7DA960E126AEAE51EB12129763C /* Products */;
+>>>>>>> Stashed changes
 =======
 			productRefGroup = 4DECF7DA960E126AEAE51EB12129763C /* Products */;
 >>>>>>> Stashed changes
@@ -4617,6 +4778,11 @@
 				C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */,
 				42465A188431886AB035275F049824D3 /* Bolts */,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+				C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */,
+				2D834CBBD351637528FA6B93E42745DC /* MessageKit */,
+>>>>>>> Stashed changes
 =======
 				C8C39DD486923E3933801D232041B590 /* InputBarAccessoryView */,
 				2D834CBBD351637528FA6B93E42745DC /* MessageKit */,
@@ -4632,16 +4798,22 @@
 
 /* Begin PBXResourcesBuildPhase section */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		0B682EAC96129FD537C10C142D92A79D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 =======
+=======
+>>>>>>> Stashed changes
 		291AA43ADAD4E793F0212A12266E1D43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				16854A9A19CEFC25255F37BDD64611E1 /* Assets.xcassets in Resources */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4654,16 +4826,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		71EE1D60A9A1F4495F08B0B3A6045197 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3644FC2A640C361D7A20CABBFA52F63B /* en.lproj in Resources */,
 =======
+=======
+>>>>>>> Stashed changes
 		79F4C1362E17A9579E38CA79E6A53E95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4684,7 +4862,11 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		C9D083242A145A03097DCA20BCA668B6 /* Resources */ = {
+=======
+		B3C75DE44560D4EF7CDDE3C9BBDC2BA8 /* Resources */ = {
+>>>>>>> Stashed changes
 =======
 		B3C75DE44560D4EF7CDDE3C9BBDC2BA8 /* Resources */ = {
 >>>>>>> Stashed changes
@@ -4702,7 +4884,10 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		D5A175A2B65B6F09ED566B984B3F68EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4711,6 +4896,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -4720,10 +4908,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 =======
+=======
+>>>>>>> Stashed changes
 		FC2E714B043067B0E66506609E1FB26D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4741,6 +4932,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		0921E5BF8EE55B1A59B39324E150F693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -4914,6 +5108,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		40887BEA10D5F69AB84DDD6716F11DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4927,11 +5122,16 @@
 			buildActionMask = 2147483647;
 			files = (
 =======
+=======
+>>>>>>> Stashed changes
 		2DC2F9E25430133F2318E949EC9C087F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF337FC1E9D8B58AB82D271DA62DD7CF /* Pods-FleaMarket-FleaMarketUITests-dummy.m in Sources */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4952,7 +5152,10 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		89439921D45DFDE1621E730C6C58C15B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5031,6 +5234,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		91712ED2201A927232B8668E3677594D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -5050,12 +5256,15 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		A7A487751D990C9597AE66E6322FFA90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F15F72267C23737199AF23AD21E9F9AB /* Pods-FleaMarket-FleaMarketUITests-dummy.m in Sources */,
 =======
+=======
+>>>>>>> Stashed changes
 		AAD3065F3A4A6B18B02965B977AA41F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5103,6 +5312,9 @@
 				42575A6779930D6A5E531EAD5D85C916 /* String+Extensions.swift in Sources */,
 				E06AADA7C0F8D9602461175C8EE06492 /* UITextView+Extensions.swift in Sources */,
 				98D4FCF9E8F23E3036D26D550C9616C2 /* UIView+AutoLayout.swift in Sources */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5154,6 +5366,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		040C33AA9F5412AC33BC89910276FD02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5227,6 +5440,8 @@
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = 1005F6171BD3AE3B37B98BA09597FEA4 /* PBXContainerItemProxy */;
 =======
+=======
+>>>>>>> Stashed changes
 		05C211CA82C0CFD6ED92E1D2195BEC12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FleaMarket";
@@ -5328,6 +5543,9 @@
 			name = Bolts;
 			target = 42465A188431886AB035275F049824D3 /* Bolts */;
 			targetProxy = CDD15C1DB38E75B3E5D794D5FFDA0F5C /* PBXContainerItemProxy */;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		};
 /* End PBXTargetDependency section */
@@ -5336,7 +5554,11 @@
 		06F0B176A8ADF889F2707B2E33BA900B /* Release */ = {
 			isa = XCBuildConfiguration;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			baseConfigurationReference = 5E4AECFEF7836F1B879ECF63860BDA3E /* AlamofireImage.release.xcconfig */;
+=======
+			baseConfigurationReference = 641A95742F2E0475C52803A3C0538AA5 /* AlamofireImage.release.xcconfig */;
+>>>>>>> Stashed changes
 =======
 			baseConfigurationReference = 641A95742F2E0475C52803A3C0538AA5 /* AlamofireImage.release.xcconfig */;
 >>>>>>> Stashed changes
@@ -5374,16 +5596,22 @@
 			name = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		0921EE4923BC03D8C2B6F33E8191B0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 969EED5DE1041CA50B1DBEBEE992350D /* Pods-FleaMarket-FleaMarketUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 =======
+=======
+>>>>>>> Stashed changes
 		178C7B65E8DE342C493012F7A57FE702 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBEF06859528AB0BEA31757C89C97015 /* MessageKit.release.xcconfig */;
 			buildSettings = {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -5395,20 +5623,27 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 =======
+=======
+>>>>>>> Stashed changes
 				GCC_PREFIX_HEADER = "Target Support Files/MessageKit/MessageKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MessageKit/MessageKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests.modulemap";
@@ -5420,6 +5655,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 =======
+=======
+>>>>>>> Stashed changes
 				MODULEMAP_FILE = "Target Support Files/MessageKit/MessageKit.modulemap";
 				PRODUCT_MODULE_NAME = MessageKit;
 				PRODUCT_NAME = MessageKit;
@@ -5463,6 +5700,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5471,10 +5711,13 @@
 			name = Debug;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		3FED7E1E54322A553547D7E37DF63F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12F74FCA50B97A7E18EA0A4A0AB095D3 /* AlamofireImage.debug.xcconfig */;
 =======
+=======
+>>>>>>> Stashed changes
 		23E004167F2B81F55FA5FFF2CDD01D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE9238F03B5AAC1B3A2B4A5B9B3BAA33 /* Parse.debug.xcconfig */;
@@ -5494,6 +5737,9 @@
 		3FED7E1E54322A553547D7E37DF63F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 965FEFAA95FE85D0E16915A14C288BED /* AlamofireImage.debug.xcconfig */;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -5594,6 +5840,7 @@
 			name = Debug;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		6285EEF596904F28F945BC57CFD35622 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0AD200C6B7C7BA077DC9F7E4C9DF7E1 /* Parse.release.xcconfig */;
@@ -5614,6 +5861,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 318C48412017646DD867CEEE370EC7F5 /* Pods-FleaMarket-FleaMarketUITests.release.xcconfig */;
 =======
+=======
+>>>>>>> Stashed changes
 		6294911370E304828DB05711193FB27D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A00F9D678ED147FB575BB8C431F6E200 /* MessageKit.debug.xcconfig */;
@@ -5688,6 +5937,9 @@
 		8EE7B682160F2DBC8710482A63026A4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4D448A53601322B9896C9CB46C1C720 /* Pods-FleaMarket.release.xcconfig */;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -5701,7 +5953,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests-Info.plist";
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket-Info.plist";
+>>>>>>> Stashed changes
 =======
 				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket-Info.plist";
 >>>>>>> Stashed changes
@@ -5714,7 +5970,11 @@
 				);
 				MACH_O_TYPE = staticlib;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests.modulemap";
+=======
+				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket.modulemap";
+>>>>>>> Stashed changes
 =======
 				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket.modulemap";
 >>>>>>> Stashed changes
@@ -5735,7 +5995,11 @@
 		90A4588B06F8745E7FCD1B00204D6241 /* Release */ = {
 			isa = XCBuildConfiguration;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			baseConfigurationReference = 5130AB6E86532D50019766406AB57180 /* Alamofire.release.xcconfig */;
+=======
+			baseConfigurationReference = B4AF8D65C64129BADD561C6BC7F5C0A2 /* Alamofire.release.xcconfig */;
+>>>>>>> Stashed changes
 =======
 			baseConfigurationReference = B4AF8D65C64129BADD561C6BC7F5C0A2 /* Alamofire.release.xcconfig */;
 >>>>>>> Stashed changes
@@ -5812,7 +6076,11 @@
 		9E98C04A5FA16D8AD5D48C1861179497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			baseConfigurationReference = 17A79A5123B3739009ED9EDA4DF80F4C /* Alamofire.debug.xcconfig */;
+=======
+			baseConfigurationReference = 9CC382109E12410B6326D9FB11FC6F04 /* Alamofire.debug.xcconfig */;
+>>>>>>> Stashed changes
 =======
 			baseConfigurationReference = 9CC382109E12410B6326D9FB11FC6F04 /* Alamofire.debug.xcconfig */;
 >>>>>>> Stashed changes
@@ -5849,6 +6117,7 @@
 			name = Debug;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		B9E8ADAF5C2E8A9D5B96F1EE342E9D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 693732F1FFDCE323C97C891EE034653D /* Parse.debug.xcconfig */;
@@ -5868,6 +6137,11 @@
 		BA0EA6936330FA1F00A7724EA5108706 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ECD382229E6CE735F2F6BA274720652 /* Bolts.release.xcconfig */;
+=======
+		BA0EA6936330FA1F00A7724EA5108706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22347E3ACA4FC3EFC15E7BE52B0CBBF8 /* Bolts.release.xcconfig */;
+>>>>>>> Stashed changes
 =======
 		BA0EA6936330FA1F00A7724EA5108706 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -5906,6 +6180,7 @@
 			name = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		C2EDEC795EC41089D0BCF79CEF8A32E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DC4DF64F0DB704647E40A1DA0A61E3C /* Pods-FleaMarket.debug.xcconfig */;
@@ -5943,6 +6218,8 @@
 			};
 			name = Debug;
 		};
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
@@ -6008,10 +6285,13 @@
 			name = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		D756DD028EF267E82C2B3464BC34C6AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0AD200C6B7C7BA077DC9F7E4C9DF7E1 /* Parse.release.xcconfig */;
 =======
+=======
+>>>>>>> Stashed changes
 		D05ECECC7977CC035A3B1ACA9D60F413 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DC4DF64F0DB704647E40A1DA0A61E3C /* Pods-FleaMarket.debug.xcconfig */;
@@ -6068,6 +6348,9 @@
 		D756DD028EF267E82C2B3464BC34C6AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E35A76AA9539FF06B1A06FEF8A55CFE /* Parse.release.xcconfig */;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -6102,7 +6385,10 @@
 			name = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		E99FD9DA60F2078501537B7CBF9DF10A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 969EED5DE1041CA50B1DBEBEE992350D /* Pods-FleaMarket-FleaMarketUITests.debug.xcconfig */;
@@ -6140,6 +6426,9 @@
 			};
 			name = Debug;
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		EADE239DEF70BE6E3472862682F00C0A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -6182,7 +6471,11 @@
 		EC24D13E456FC5F4531D025E58708652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			baseConfigurationReference = 932D7E3110F7D7FE3080174062B4A853 /* Bolts.debug.xcconfig */;
+=======
+			baseConfigurationReference = 21564575C312BA696ED36E9782B16E84 /* Bolts.debug.xcconfig */;
+>>>>>>> Stashed changes
 =======
 			baseConfigurationReference = 21564575C312BA696ED36E9782B16E84 /* Bolts.debug.xcconfig */;
 >>>>>>> Stashed changes
@@ -6218,9 +6511,15 @@
 			name = Debug;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		F39B9DF4F85176AF032259AF32383FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4D448A53601322B9896C9CB46C1C720 /* Pods-FleaMarket.release.xcconfig */;
+=======
+		F82AD84DD8990221E4AD3AC72CEAA758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318C48412017646DD867CEEE370EC7F5 /* Pods-FleaMarket-FleaMarketUITests.release.xcconfig */;
+>>>>>>> Stashed changes
 =======
 		F82AD84DD8990221E4AD3AC72CEAA758 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -6238,7 +6537,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket-Info.plist";
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests-Info.plist";
+>>>>>>> Stashed changes
 =======
 				INFOPLIST_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests-Info.plist";
 >>>>>>> Stashed changes
@@ -6251,7 +6554,11 @@
 				);
 				MACH_O_TYPE = staticlib;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket/Pods-FleaMarket.modulemap";
+=======
+				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests.modulemap";
+>>>>>>> Stashed changes
 =======
 				MODULEMAP_FILE = "Target Support Files/Pods-FleaMarket-FleaMarketUITests/Pods-FleaMarket-FleaMarketUITests.modulemap";
 >>>>>>> Stashed changes
@@ -6272,7 +6579,11 @@
 		F946027B0681B0F9D52B47FE2EF6BF10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			baseConfigurationReference = 693732F1FFDCE323C97C891EE034653D /* Parse.debug.xcconfig */;
+=======
+			baseConfigurationReference = BE9238F03B5AAC1B3A2B4A5B9B3BAA33 /* Parse.debug.xcconfig */;
+>>>>>>> Stashed changes
 =======
 			baseConfigurationReference = BE9238F03B5AAC1B3A2B4A5B9B3BAA33 /* Parse.debug.xcconfig */;
 >>>>>>> Stashed changes
@@ -6320,22 +6631,29 @@
 			defaultConfigurationName = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		195FCE550607F23B257E763E91256D3F /* Build configuration list for PBXNativeTarget "Pods-FleaMarket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2EDEC795EC41089D0BCF79CEF8A32E1 /* Debug */,
 				F39B9DF4F85176AF032259AF32383FB0 /* Release */,
 =======
+=======
+>>>>>>> Stashed changes
 		32FAEE34BCA4C1B0FB518050D7129A19 /* Build configuration list for PBXNativeTarget "InputBarAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BD2D32F8BC0391F48136DEDAC1A48D0 /* Debug */,
 				8027C09A3022AE60C5A036A70959F1D8 /* Release */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		268D21D93D946E9966855B4E68C40355 /* Build configuration list for PBXNativeTarget "Parse-Parse" */ = {
 			isa = XCConfigurationList;
@@ -6343,11 +6661,16 @@
 				B9E8ADAF5C2E8A9D5B96F1EE342E9D27 /* Debug */,
 				6285EEF596904F28F945BC57CFD35622 /* Release */,
 =======
+=======
+>>>>>>> Stashed changes
 		3986821B34E0DCACC3887697458A8DF8 /* Build configuration list for PBXNativeTarget "Parse-Parse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23E004167F2B81F55FA5FFF2CDD01D7B /* Debug */,
 				D0A6406D88CEADEDA1BE8AF60A8E2392 /* Release */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
@@ -6372,12 +6695,15 @@
 			defaultConfigurationName = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		7FE83AEF424E379655BF12170FDA3DE3 /* Build configuration list for PBXNativeTarget "Pods-FleaMarket-FleaMarketUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0921EE4923BC03D8C2B6F33E8191B0FA /* Debug */,
 				85650F1C20511F412843F66C3108A896 /* Release */,
 =======
+=======
+>>>>>>> Stashed changes
 		6EF5343B74ED948F96190915C85D1FAE /* Build configuration list for PBXNativeTarget "Pods-FleaMarket-FleaMarketUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6392,6 +6718,9 @@
 			buildConfigurations = (
 				D05ECECC7977CC035A3B1ACA9D60F413 /* Debug */,
 				8EE7B682160F2DBC8710482A63026A4E /* Release */,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
@@ -6407,7 +6736,10 @@
 			defaultConfigurationName = Release;
 		};
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		9337ED340BEB01B953DBB0C9ED2D4DB4 /* Build configuration list for PBXNativeTarget "MessageKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6417,6 +6749,9 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		B55A54F821115D9662B5935F77A7E237 /* Build configuration list for PBXNativeTarget "Pods-FleaMarketTests" */ = {
 			isa = XCConfigurationList;

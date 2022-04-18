@@ -112,7 +112,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
 		<dict>
 			<key>FooterText</key>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 			<string>
 The MIT License (MIT)
 
@@ -176,6 +179,9 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<string>BSD License
 

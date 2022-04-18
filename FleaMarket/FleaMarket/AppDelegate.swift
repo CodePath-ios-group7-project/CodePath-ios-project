@@ -17,8 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let parseConfig = ParseClientConfiguration {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 $0.applicationId = "mySdkPrJiAm9uwMCJTaT1TM3TicJ7BydjUnMpciD"
                 $0.clientKey = "hwtQ4B4IRIRfAbmIsebV2XT2U9BHQ7c0kkxt3UYL"
+=======
+                $0.applicationId = "pWtjfJoVlqs5rGJoot4AUNQws2RklWjOBzjFQENL"
+                $0.clientKey = "OEeCU26gMv2y9ucK2pzuRNLjqVZvxvbsiV3vpPo6"
+>>>>>>> Stashed changes
 =======
                 $0.applicationId = "pWtjfJoVlqs5rGJoot4AUNQws2RklWjOBzjFQENL"
                 $0.clientKey = "OEeCU26gMv2y9ucK2pzuRNLjqVZvxvbsiV3vpPo6"

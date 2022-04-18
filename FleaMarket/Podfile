@@ -9,6 +9,10 @@ target 'FleaMarket' do
     pod 'Parse'
     pod 'AlamofireImage'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    pod 'MessageKit'
+>>>>>>> Stashed changes
 =======
     pod 'MessageKit'
 >>>>>>> Stashed changes

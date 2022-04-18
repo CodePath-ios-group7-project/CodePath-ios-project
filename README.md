@@ -237,6 +237,7 @@ Here's a walkthrough of implemented user stories:
     *  (?/?)Lets people change password, change language, and app notification settings. (optional)
 
 #### * The workload are assigned into 5 parts, each teammember should be in charge of one part. You will be responsible for the implementation.
+<<<<<<< Updated upstream
 
 ## Sprint-Plan
 ### Sprint Plan 1 -- by April 08, 2022
@@ -283,5 +284,53 @@ part 3: Item Detail Screen, Create Post Screen, Edit Post Screen (new) -- Christ
 
 part 4: Message Screen, Individual Message Screen -- Weiyuan Wu
 
+=======
+
+## Sprint-Plan
+### Sprint Plan 1 -- by April 08, 2022
+Every team member should break down their part into issues(user story/small task) and add them to our project board on Github.
+Every team member should finish at least 1 Screen this week.
+
+- [x] The users can list items
+  - [x] 1. The users can upload photos of the items
+  - [x] 2. The users can upload text detail description of the items 
+  - [x] 3. The users can list price of the items 
+- [x]  The users can create an account and log in 
+- [x] The users can search used items by keyword. 
+
+
+
+#### Video Walkthrough
+
+Here's a Gifs created to show build progress:
+
+<img src='http://g.recordit.co/vt2e1L9Z0A.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+### Sprint Plan 2 -- by April 15, 2022
+Every team member should finish all remaining screens this week.
+- [ ]  The users can fill in their personal information for their user profile
+- [ ]  The users communicate through a messaging system 
+- [ ] The users can look at a feed of nearby used items 
+- [ ] The users can look at more details of an item by tapping on it
+
+Here's a Gifs created to show build progress:  
+
+![Fleamarket Walkthrough](./fleamarket.gif)
+
+### Sprint Plan 3 -- by April 22, 2022
+Every team member should finish settling the connection/cooperation between different screens and test the application this week.
+
+
+#### workload assigned
+
+part 1: Welcome Screen, Register Screen, Login Screen, Edit Profile Screen -- Ziyue Wang
+
+part 2: Home Screen, Search Screen [combined with the Search Result Screen] -- Michael Ha
+
+part 3: Item Detail Screen, Create Post Screen, Edit Post Screen (new) -- Christian Dung Nguyen
+
+part 4: Message Screen, Individual Message Screen -- Weiyuan Wu
+
+>>>>>>> Stashed changes
 part 5: Profile Screen. Settings Screen [optional] -- Dustin Burda
 
