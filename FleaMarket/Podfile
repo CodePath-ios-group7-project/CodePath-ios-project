@@ -8,6 +8,10 @@ target 'FleaMarket' do
   # Pods for FleaMarket
     pod 'Parse'
     pod 'AlamofireImage'
+<<<<<<< Updated upstream
+=======
+    pod 'MessageKit'
+>>>>>>> Stashed changes
 
   target 'FleaMarketTests' do
     inherit! :search_paths
