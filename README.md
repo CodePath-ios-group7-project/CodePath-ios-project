@@ -495,22 +495,17 @@ Here's a walkthrough of implemented user stories:
 * Settings Screen [optional]
     *  (?/?)Lets people change password, change language, and app notification settings. (optional)
 
-#### * please read the above discrition and we will discuss the Work Assignment Plan in the coming meeting, I have all work assign into 5 parts, each teammember should be in charge of one part. (You will be responsible for the implementation)
-
-#### * I list my idea in Schema, if you have issue when implement the App, feel free to disscuss and modify it. Instead of following my writing, you should be responsible for your Work Assignment.
-
-#### * this week (by Friday April 1st), you will need to [Create basic snippets for each Parse network request] under the screen that you are incharged.
-
+#### * The workload are assigned into 5 parts, each teammember should be in charge of one part. You will be responsible for the implementation.
 
 ## Sprint-Plan
 ### Sprint Plan 1 -- by April 08, 2022
 Every team member should break down their part into issues(user story/small task) and add them to our project board on Github.
 Every team member should finish at least 1 Screen this week.
 
-- [ ] The users can list items
-  - [ ] 1. The users can upload photos of the items
-  - [ ] 2. The users can upload text detail description of the items 
-  - [ ] 3. The users can list price of the items 
+- [x] The users can list items
+  - [x] 1. The users can upload photos of the items
+  - [x] 2. The users can upload text detail description of the items 
+  - [x] 3. The users can list price of the items 
 - [x]  The users can create an account and log in 
 - [x] The users can search used items by keyword. 
 
@@ -529,6 +524,9 @@ Every team member should finish all remaining screens this week.
 - [ ] The users can look at a feed of nearby used items 
 - [ ] The users can look at more details of an item by tapping on it
 
+Here's a Gifs created to show build progress:  
+
+![Fleamarket Walkthrough](./fleamarket.gif)
 
 ### Sprint Plan 3 -- by April 22, 2022
 Every team member should finish settling the connection/cooperation between different screens and test the application this week.
