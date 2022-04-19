@@ -20,13 +20,20 @@ struct Message: MessageType {
     var kind: MessageKind
 }
 
+struct Media: MediaItem {
+    var url: URL?
+    var image: UIImage?
+    var placeholderImage: UIImage
+    var size: CGSize
+}
+
 class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLayoutDelegate, MessagesDisplayDelegate {
 
-    let currentUser = Sender(senderId: "self", displayName: "iOS TA")
+    let currentUser = Sender(senderId: "self", displayName: "John Smith")
 
-    let otherUser = Sender(senderId: "other", displayName: "John Smith")
+    let otherUser = Sender(senderId: "other", displayName: "iOS TA")
     
-    var messages = [MessageType]()
+    var messages = [Message]()// MessageType ????
     // FIXME: modify it when connect to database.
     // FIXME: let messages: [MessageType] = [Message(sender: <#T##SenderType#>, messageId: <#T##String#>, sentDate: <#T##Date#>, kind: <#T##MessageKind#>)]
     
@@ -47,6 +54,23 @@ class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLa
                                 messageId: "3",
                                 sentDate: Date().addingTimeInterval(-76400),
                                 kind: .text("Today is a super loooooooooooooooooooooooooooooooooooooooooooooooooooooooong day")))
+        
+        messages.append(Message(sender: currentUser,
+                                messageId: "4",
+                                sentDate: Date().addingTimeInterval(-70000),
+                                kind: .photo(Media(url: nil,
+                                                   image: UIImage(named: "image1"),
+                                                   placeholderImage: UIImage(named: "image1")!,
+                                                   size: CGSize(width: 250, height: 250)))))
+        
+        messages.append(Message(sender: otherUser,
+                                messageId: "5",
+                                sentDate: Date().addingTimeInterval(-60000),
+                                kind: .photo(Media(url: nil,
+                                                   image: UIImage(named: "image2"),
+                                                   placeholderImage: UIImage(named: "image2")!,
+                                                   size: CGSize(width: 250, height: 250)))))
+        
         
         messagesCollectionView.messagesDataSource = self
         messagesCollectionView.messagesLayoutDelegate = self
