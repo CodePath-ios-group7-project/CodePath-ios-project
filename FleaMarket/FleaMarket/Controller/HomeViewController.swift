@@ -14,13 +14,14 @@ class HomeViewController: UIViewController {
     var items = [PFObject]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         tableView.delegate = self
         tableView.dataSource = self
         
     }
     override func viewDidAppear(_ animated: Bool) {
            super.viewDidAppear(animated)
-           let query = PFQuery(className: "Post")
+           let query = PFQuery(className: "Posts")
            query.includeKey("author")
            query.limit = 20
            
@@ -63,7 +64,6 @@ class HomeViewController: UIViewController {
         delegate.window?.rootViewController = loginViewController
         
     }
-    
 }
 
 
@@ -71,25 +71,24 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell") as! ItemCell
         
         let post = items[indexPath.row]
         
-        cell.itemName.text = post["title"] as! String
-        cell.itemPrice.text = post["price"] as! String
-        cell.itemDiscription.text = post["description"] as! String
+        cell.itemName.text = post["title"] as? String
+        cell.itemPrice.text = post["price"] as? String
+        cell.itemDiscription.text = post["description"] as? String
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
         
         cell.itemImage.af.setImage(withURL: url)
-        
+
         return cell
     }
-    
-    
     
 }
 
