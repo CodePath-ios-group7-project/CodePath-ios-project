@@ -16,13 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="1vj-Sb-EaT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="1vj-Sb-EaT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1vj-Sb-EaT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="Udy-VW-4pK"/>
+                            <constraint firstItem="1vj-Sb-EaT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="agG-aa-MYH"/>
                             <constraint firstItem="1vj-Sb-EaT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hQw-36-S7g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1vj-Sb-EaT" secondAttribute="trailing" id="q6P-eo-3DN"/>
                         </constraints>

@@ -54,21 +54,21 @@ class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLa
                                 messageId: "3",
                                 sentDate: Date().addingTimeInterval(-76400),
                                 kind: .text("Today is a super loooooooooooooooooooooooooooooooooooooooooooooooooooooooong day")))
-        
+
         messages.append(Message(sender: currentUser,
                                 messageId: "4",
                                 sentDate: Date().addingTimeInterval(-70000),
                                 kind: .photo(Media(url: nil,
-                                                   image: UIImage(named: "image1"),
-                                                   placeholderImage: UIImage(named: "image1")!,
+                                                   image: UIImage(named: "Image1"),
+                                                   placeholderImage: UIImage(named: "Image1")!,
                                                    size: CGSize(width: 250, height: 250)))))
-        
+
         messages.append(Message(sender: otherUser,
                                 messageId: "5",
                                 sentDate: Date().addingTimeInterval(-60000),
                                 kind: .photo(Media(url: nil,
-                                                   image: UIImage(named: "image2"),
-                                                   placeholderImage: UIImage(named: "image2")!,
+                                                   image: UIImage(named: "Image2"),
+                                                   placeholderImage: UIImage(named: "Image2")!,
                                                    size: CGSize(width: 250, height: 250)))))
         
         
