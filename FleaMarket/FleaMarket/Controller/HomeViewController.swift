@@ -17,6 +17,7 @@ class HomeViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+//        tableView.rowHeight = 150
         
     }
     override func viewDidAppear(_ animated: Bool) {
