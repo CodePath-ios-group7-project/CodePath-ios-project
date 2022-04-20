@@ -75,10 +75,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell") as! ItemCell
         
         let post = items[indexPath.row]
-        let item = post["author"] as! PFUser
         
-        
-        cell.itemName.text = post["productName"] as! String
+        cell.itemName.text = post["title"] as! String
         cell.itemPrice.text = post["price"] as! String
         cell.itemDiscription.text = post["description"] as! String
         
