@@ -10,6 +10,7 @@ import Parse
 import AlamofireImage
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var searchTab: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     var items = [PFObject]()
     override func viewDidLoad() {
