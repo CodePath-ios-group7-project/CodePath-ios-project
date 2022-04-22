@@ -29,7 +29,7 @@ class AddPostViewController: UIViewController, UIImagePickerControllerDelegate, 
         let post = PFObject(className: "Posts")
         
         post["author"] = PFUser.current()
-        post["title"] = titleField.text!
+        post["title"] = titleField.text!.lowercased()
         post["price"] = priceField.text!
         post["location"] = locationField.text!
         post["description"] = descriptionField.text!

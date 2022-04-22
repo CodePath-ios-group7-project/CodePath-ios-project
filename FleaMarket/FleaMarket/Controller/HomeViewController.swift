@@ -10,15 +10,21 @@ import Parse
 import AlamofireImage
 class HomeViewController: UIViewController {
 
-    @IBOutlet weak var searchTab: UISearchBar!
+//    @IBOutlet weak var searchTab: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
+    var searchActive: Bool = false
     var items = [PFObject]()
+    
+    var filterItems : [PFObject] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         tableView.dataSource = self
 //        tableView.rowHeight = 150
+        
+//        searchTab.delegate = self
         
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -37,6 +43,8 @@ class HomeViewController: UIViewController {
                
            }
        }
+    
+
     
     // MARK: - Navigation
 
@@ -66,6 +74,8 @@ class HomeViewController: UIViewController {
         delegate.window?.rootViewController = loginViewController
         
     }
+    
+    
 }
 
 
@@ -93,6 +103,29 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
 }
+
+// MARK: Search Bar
+//extension HomeViewController: UISearchBarDelegate {
+//    func search(searchText: String? = nil){
+//        let query = PFQuery(className: "Posts")
+//        if(searchText != nil){
+//            query.whereKey("title", containsString: searchText)
+//        }
+//        query.findObjectsInBackgroundWithBlock { (results, error) -> Void in
+//            self.items = results as? [PFObject]
+//            self.table3.reloadData()
+//        }
+//
+//    }
+//    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+//        if searchText != "" {
+//            filterItems = items.filter({ <#PFObject#> in
+//                <#code#>
+//            })
+//            })
+//        }
+//    }
+//}
 
 
     /*

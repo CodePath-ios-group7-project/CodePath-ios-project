@@ -163,11 +163,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchCell" rowHeight="132" id="hzy-FL-Jld" customClass="SearchCell" customModule="FleaMarket" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="132"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchCell" rowHeight="111" id="hzy-FL-Jld">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="111"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hzy-FL-Jld" id="QvZ-BB-ffw">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -198,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugu-hX-AUI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3146" y="363"/>
+            <point key="canvasLocation" x="3144.9275362318845" y="362.94642857142856"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="x3Y-rR-19f">
@@ -291,11 +291,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3xs-F8-inU">
-                                <rect key="frame" x="0.0" y="86" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5yh-h9-vsj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -308,7 +303,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchTab" destination="3xs-F8-inU" id="cOh-GO-Y6y"/>
                         <outlet property="tableView" destination="DEZ-xr-pgc" id="2Zl-sF-FLj"/>
                     </connections>
                 </viewController>
