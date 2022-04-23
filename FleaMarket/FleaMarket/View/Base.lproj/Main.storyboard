@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dIc-pu-l5N">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dIc-pu-l5N">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -368,20 +368,20 @@
                     </tabBar>
                     <connections>
                         <segue destination="AAn-WX-gBD" kind="relationship" relationship="viewControllers" id="THX-BB-okV"/>
-                        <segue destination="zmf-Gy-5Rt" kind="relationship" relationship="viewControllers" id="PKT-Ph-9mU"/>
-                        <segue destination="gL6-TQ-2TT" kind="relationship" relationship="viewControllers" id="smT-32-gDS"/>
                         <segue destination="8UM-RV-458" kind="relationship" relationship="viewControllers" id="aCE-W0-y5k"/>
+                        <segue destination="gL6-TQ-2TT" kind="relationship" relationship="viewControllers" id="smT-32-gDS"/>
+                        <segue destination="zmf-Gy-5Rt" kind="relationship" relationship="viewControllers" id="PKT-Ph-9mU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFQ-P8-cz6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1020" y="94"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="O8e-8A-JJb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AAn-WX-gBD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" selectedImage="house" id="mlo-Ue-V5w"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house" id="mlo-Ue-V5w"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4BM-zN-z4q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
