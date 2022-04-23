@@ -531,6 +531,10 @@ Here's a Gifs created to show build progress:
 ### Sprint Plan 3 -- by April 22, 2022
 Every team member should finish settling the connection/cooperation between different screens and test the application this week.
 
+Here's a Gifs created to show build progress:  
+
+<img src='http://g.recordit.co/EQg6HOcFSg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 #### workload assigned
 
